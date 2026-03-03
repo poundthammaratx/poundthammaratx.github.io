@@ -21,7 +21,5 @@ I work at the interface of hardware validation, distributed trigger architecture
 
 ## Latest Talk
 
-**CHEP 2026 – Track 2 Oral Presentation**  
-Mitigating Deadtime in Distributed Optical Arrays  
 
 [Download Slides](/slides/chep2026.pdf)
