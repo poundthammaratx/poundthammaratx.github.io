@@ -1,4 +1,4 @@
-baseURL = "https://tyawisit.github.io/"
+baseURL = "https://poundthammaratx.github.io/tyawisit.github.io/"
 languageCode = "en-us"
 title = "Thammarat Yawisit"
 theme = "PaperMod"
@@ -10,14 +10,16 @@ theme = "PaperMod"
   ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = false
+  relativeURLs = true
+  canonifyURLs = true
 [menu]
 
   [[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
-  weight = 1
-  
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
   [[menu.main]]
     identifier = "research"
     name = "Research"
