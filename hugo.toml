@@ -1,0 +1,49 @@
+baseURL = "https://tyawisit.github.io/"
+languageCode = "en-us"
+title = "Thammarat Yawisit"
+theme = "PaperMod"
+
+[params]
+  author = "Thammarat Yawisit"
+  description = "Engineer–Scientist in Detector Instrumentation and Distributed Trigger Systems"
+      defaultTheme = "light"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+[menu]
+
+  [[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 1
+  
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "talks"
+    name = "Talks"
+    url = "/talks/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "code"
+    name = "Code"
+    url = "/code/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv/"
+    weight = 5
