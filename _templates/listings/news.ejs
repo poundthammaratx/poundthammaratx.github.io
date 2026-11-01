@@ -1,0 +1,38 @@
+<%
+// News: media coverage and announcements, newest first.
+// `template-params: {mode: recent, count: N}` renders a compact list of N items.
+const tp = (typeof templateParams !== 'undefined' && templateParams) || {};
+const compact = tp.mode === 'recent';
+let rows = items.filter(it => !it.hidden);
+rows.sort((a, b) => String(b.sortdate || '').localeCompare(String(a.sortdate || '')));
+if (compact) rows = rows.slice(0, Number(tp.count) || 3);
+const kinds = { media: 'In the media', announcement: 'Announcement' };
+%>
+```{=html}
+<% if (!compact) { %>
+<div class="filter-bar" data-filter-group="news" aria-label="Filter news">
+  <label>Type
+    <select data-filter-key="kind"><option value="">All news</option><option value="media">In the media</option><option value="announcement">Announcements</option></select>
+  </label>
+  <span class="filter-count" aria-live="polite"></span>
+</div>
+<% } %>
+<ul class="records timeline" data-filter-target="news">
+<% for (const it of rows) { %>
+  <li class="record" data-kind="<%= it.kind %>">
+    <div class="t-date"><%= it.date_label %></div>
+    <div>
+      <p class="r-title"><%= it.title %></p>
+      <% if (it.title_original) { %><p class="r-note" lang="th" style="margin-top:0"><%= it.title_original %></p><% } %>
+      <% if (!compact && it.summary) { %><p class="t-org" style="margin-top:.35rem"><%= it.summary %></p><% } %>
+      <div class="r-meta">
+        <span class="badge-tw <%= it.kind === 'media' ? 'status-published' : 'status-info' %>"><%= kinds[it.kind] || it.kind %></span>
+        <% if (it.outlet) { %><span class="r-note" style="margin:0"><%= it.outlet %><% if (it.language) { %> · in <%= it.language %><% } %></span><% } %>
+        <% if (it.url) { %><a href="<%= it.url %>">Read the source</a><% } %>
+        <% if (it.link && !compact) { %><a href="<%- it.link.replace('/index.qmd', '/') %>"><%= it.link_label || 'More' %></a><% } %>
+      </div>
+    </div>
+  </li>
+<% } %>
+</ul>
+```

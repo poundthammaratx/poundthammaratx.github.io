@@ -27,6 +27,7 @@ profiles:
   orcid: "https://orcid.org/0009-0006-9298-8862"
   scholar: "https://scholar.google.com/citations?user=w1ewAQ0AAAAJ"
   linkedin: "https://www.linkedin.com/in/thammaratya"
+  pound: "https://pound-global-website.vercel.app/"
   arxiv: ""
   zenodo: ""
 

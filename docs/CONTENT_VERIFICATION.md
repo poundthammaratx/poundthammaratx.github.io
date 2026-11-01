@@ -23,9 +23,9 @@ Status as of the initial Quarto build (1 November 2026). Sources: `CV_Thammarat_
 ## Recognition
 
 - [x] Each item personally received per the CV; registration waiver and registration support described as such.
-- [x] Government Science and Technology Scholarship nomination (memo of 22 Oct 2026) is **hidden**: it is a nomination/request for allocation, not an award.
-- [x] Planned M.Sc. at KIT (WS 2027/28) is **hidden** in `data/education.yml`.
-- [x] **Owner decided (1 Nov 2026):** keep both hidden for now. To show later, set `hidden: false` (labels already say "Nominated · decision pending" / "Planned").
+- [x] Government Science and Technology Scholarship nomination (memo of 22 Oct 2026) is shown, labelled "Nominated · decision pending": it is a nomination, not an award.
+- [x] Planned M.Sc. at KIT (WS 2027/28) is shown, labelled "Planned".
+- [x] **Owner decided (1 Nov 2026, later the same day):** show both publicly.
 
 ## Privacy
 
@@ -53,3 +53,12 @@ Status as of the initial Quarto build (1 November 2026). Sources: `CV_Thammarat_
 - [x] Pages checked at 1366 px and 390 px widths; no horizontal scrolling; no console errors.
 - [x] Sitemap, RSS feed, 404 page, Open Graph and description metadata generated.
 - [ ] After deployment: open the live site, test search, filters, CV download and the 404 page.
+
+## Update of 1 November 2026 (chronology dossier and news)
+
+- [x] CV PDF: references section removed ("Available on request"); referee e-mail addresses are no longer in the file. Home address and phone remain, at the owner's choice.
+- [x] Added from the owner's chronological dossier: AFAPS and secondary-school education, WIPAC LOM-16 details, ThaiBev scope of work, Panasonic selection detail, KMITL academic distinction, student leadership, competitions, skills, society memberships and the ISA-95 course.
+- [x] Not added: percentage impact claims for the ThaiBev internship, manuscripts "in preparation", and the dossier's speculative month-by-month narrative.
+- [ ] Date conflicts between the dossier and the current CV were resolved in favour of the CV: WIPAC May–Aug 2025 (dossier and Thai PBS: research stay Jun–Jul 2025), ThaiBev May–Jul 2024 (dossier: Jun–Jul), Viriyah Mar–May 2022 (dossier: Mar–Apr).
+- [x] News: Thai PBS (13 Oct 2026) and KMITL Engineering news (27 May 2025) were read and summarised.
+- [ ] News: the KMITL Engineering Facebook post could not be opened (Facebook blocks automated access). Its summary is based on the headline only, and the date "Oct 2026" is approximate.

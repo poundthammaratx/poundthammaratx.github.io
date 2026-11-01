@@ -34,7 +34,7 @@ Research Engineer Intern (IceCube Summer Student Programme 2025)
 Supervision
 :::
 ::: {}
-Dr. Yuya Makino, Chris Wendt and Albrecht Karle
+Dr. Yuya Makino and Christopher Wendt (LOM team, Detector and Calibration Group); host: Albrecht Karle
 :::
 ::: {}
 Period
@@ -68,7 +68,7 @@ IceCube-Gen2 will add a large number of new optical modules to the IceCube Neutr
 
 ## Methodology
 
-The analysis works at the waveform level on data recorded from the optical modules (LOM-16). The published analysis code implements:
+The analysis used cosmic-ray muon data from the first six LOM-16 optical modules (96 photomultiplier tubes in total), which were scheduled for South Pole deployment in December 2025. It works at the waveform level, linking hardware characteristics to physics-facing observables, using ADC waveform processing, charge-distribution profiling, coincidence analysis and geometric correlation studies. The published analysis code implements:
 
 - waveform processing and charge integration;
 - coincidence-based muon event selection;
@@ -78,7 +78,7 @@ The analysis works at the waveform level on data recorded from the optical modul
 
 ## Individual role and contributions
 
-My project in the programme was the design and validation of the cosmic muon-based testing method, carried out under the supervision listed above. I developed the analysis code published in the public repository, co-authored the technical report with my supervisors, and presented the work at the WIPAC Group Meeting on 28 July 2025. A separate single-author report documents my work on optical-module construction and validation during the programme.
+My project in the programme was the design and validation of the cosmic muon-based testing method, carried out under the supervision listed above. I developed the analysis code published in the public repository, co-authored the technical report with my supervisors, and presented the work at the WIPAC Group Meeting on 28 July 2025. I also contributed to LOM-16 construction (PMT installation, hemisphere integration, mechanical sub-assembly, final assembly and pre-freezer verification), in particular on module LOM-16-09; a separate single-author report documents this work.
 
 ## Results and limitations
 

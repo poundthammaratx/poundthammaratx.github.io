@@ -1,0 +1,19 @@
+---
+title: "News"
+subtitle: "Media coverage and announcements"
+description: "News about Thammarat Yawisit: media coverage of his IceCube research and announcements of appointments, talks and scholarships."
+listing:
+  id: news-list
+  contents: ../data/news.yml
+  template: ../_templates/listings/news.ejs
+  sort-ui: false
+  filter-ui: false
+  page-size: 500
+---
+
+::: {.notice}
+**In the media** items are coverage by other organisations, summarised from the source; follow the link for the original (most are in Thai). **Announcements** are milestones taken from official records.
+:::
+
+:::{#news-list}
+:::

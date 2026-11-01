@@ -6,7 +6,9 @@ title-block-banner: false
 toc: false
 listing:
   - id: featured-research
-    contents: "research/*/index.qmd"
+    contents:
+      - "research/*/index.qmd"
+      - "!research/space/index.qmd"
     include:
       featured: true
     template: _templates/listings/cards.ejs
@@ -31,6 +33,15 @@ listing:
     sort-ui: false
     filter-ui: false
     max-items: 3
+  - id: recent-news
+    contents: data/news.yml
+    template: _templates/listings/news.ejs
+    template-params:
+      mode: recent
+      count: 3
+    sort-ui: false
+    filter-ui: false
+    page-size: 500
   - id: recent-talks
     contents: data/talks.yml
     template: _templates/listings/talks.ejs
@@ -53,6 +64,7 @@ listing:
 
 ::: {.hero-text}
 ```{=html}
+<p class="prompt" aria-hidden="true"><span class="p-user">pound@kmitl</span>:<span style="color:var(--tw-accent)">~</span>$ <span class="p-cmd">whoami</span><span class="cursor"></span></p>
 <h1 class="hero-name">Thammarat Yawisit</h1>
 ```
 
@@ -117,6 +129,7 @@ Engineer in the Academic Support Division, School of Engineering, KMITL (since O
 - Optics, photonics and advanced electronics
 - Quantum computing and quantum instrumentation
 - Scientific software and computational methods
+- Space science, deep-space observation and space technology
 :::
 
 ## Selected research
@@ -124,7 +137,7 @@ Engineer in the Academic Support Division, School of Engineering, KMITL (since O
 :::{#featured-research}
 :::
 
-[All research projects →](research/index.qmd)
+[All research projects →](research/index.qmd) · [Space science & technology →](research/space/index.qmd)
 
 ## Featured publications
 
@@ -139,6 +152,13 @@ Engineer in the Academic Support Division, School of Engineering, KMITL (since O
 :::
 
 [Engineering portfolio →](engineering/index.qmd)
+
+## News
+
+:::{#recent-news}
+:::
+
+[All news →](news/index.qmd)
 
 ## Recent academic activities
 
@@ -168,6 +188,7 @@ Engineer in the Academic Support Division, School of Engineering, KMITL (since O
 [ORCID](https://orcid.org/0009-0006-9298-8862)<br>
 [Google Scholar](https://scholar.google.com/citations?user=w1ewAQ0AAAAJ)<br>
 [LinkedIn](https://www.linkedin.com/in/thammaratya)<br>
+[POUND — Detector Technologies](https://pound-global-website.vercel.app/)<br>
 [GitHub](https://github.com/poundthammaratx)
 :::
 :::
