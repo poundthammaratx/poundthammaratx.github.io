@@ -1,0 +1,34 @@
+---
+title: "Reproducible Kinematic Analysis of Serial Robotic Manipulators"
+subtitle: "A reproducible computational framework for integrated kinematic analysis"
+description: "A reproducible computational framework for integrated kinematic analysis of serial robotic manipulators, released on Zenodo with co-authors."
+categories: [Scientific Software, Numerical Simulations, Reproducible Workflows]
+status: completed
+status-label: "Released"
+period: "2026"
+order: 3
+---
+
+::: {.facts}
+::: {}
+Authors
+:::
+::: {}
+T. Yawisit, P. Pattanawanichchakorn, T. Supachart, P. Ukakimaphan
+:::
+::: {}
+Output
+:::
+::: {}
+Research output, Zenodo · [doi:10.5281/zenodo.19332410](https://doi.org/10.5281/zenodo.19332410)
+:::
+:::
+
+## Summary
+
+A computational framework for integrated kinematic analysis of serial robotic manipulators, published as a reproducible research output on Zenodo.
+
+<!--
+OWNER TO ADD: engineering problem, methods (forward/inverse kinematics, Jacobians, etc.),
+tools, validation, your individual contribution relative to co-authors, code location.
+-->

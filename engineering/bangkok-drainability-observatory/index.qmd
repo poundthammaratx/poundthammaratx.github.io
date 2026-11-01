@@ -1,0 +1,84 @@
+---
+title: "Bangkok Drainability Observatory (BDO)"
+subtitle: "An independent, provenance-preserving open-data observatory for Bangkok drainage and flood information"
+description: "Independent engineering and open-data project that aggregates heterogeneous Bangkok drainage and flood information with source provenance, data-freshness classification and a public Streamlit interface."
+categories: [Scientific Software, Data Acquisition Systems, Open Science]
+status: deployed
+status-label: "Prototype deployed"
+period: "Sep 2026 – present"
+order: 1
+---
+
+::: {.notice}
+**Not an official service.** BDO is an independent research project. It is not a flood-warning, forecasting or alerting service, and it is not affiliated with any government agency. Values are reproduced from public sources with provenance; the originating agency remains authoritative.
+:::
+
+::: {.facts}
+::: {}
+Role
+:::
+::: {}
+Founder (P-CISE independent engineering and open-data project)
+:::
+::: {}
+Status
+:::
+::: {}
+Prototype publicly deployed (v0.1); research manuscript and further analysis in development
+:::
+::: {}
+Live system
+:::
+::: {}
+<https://bangkok-drainability-observatory.streamlit.app/>
+:::
+::: {}
+Code
+:::
+::: {}
+[poundthammaratx/bangkok-drainability-observatory](https://github.com/poundthammaratx/bangkok-drainability-observatory)
+:::
+:::
+
+## Engineering problem
+
+Drainage and flood information for Bangkok is published by several agencies in different formats, with different update rates and often without a clear distinction between when a value was measured and when it was retrieved. That makes it hard to judge whether a displayed value is current or reliable.
+
+## System requirements
+
+- Aggregate heterogeneous public sources while preserving source provenance and byte-exact raw snapshots.
+- Keep **measurement time** separate from **retrieval time**, and never back-fill unknown timestamps.
+- Classify source health and data freshness, including stale, failed, unknown and static-only records.
+- Never invent coordinates, units, datums or timestamps.
+
+## System architecture
+
+```
+config/sources.yaml ─► adapter.healthcheck() ─► adapter.fetch() ─► raw snapshot (immutable)
+                                                                         │
+                                               adapter.normalize() ◄─────┘
+                                                        │  schema validation
+                                                        ▼
+                                   de-duplication on (source, station, variable, measurement time, value)
+                                                        ▼
+                                         SQLite database ─► Streamlit interface (read-only)
+```
+
+## Implementation and design decisions
+
+- Registry of 795 stations, 582 of them with coordinates, served through five source adapters.
+- Time-to-live caching and merging of database, static and live data.
+- Source-health and data-freshness classification with geographic and status filters.
+- Raw payloads are written before parsing and never overwritten; every transformation (declared time zone, declared units, ambiguous dates) is flagged rather than silently applied.
+
+## Tools and technologies
+
+Python, SQLite, Pydantic validation, Streamlit (deployed on Streamlit Community Cloud).
+
+## Validation and limitations
+
+Adapters that cannot retrieve data reliably report their state as manual or unavailable and insert nothing. No hydraulic or drainability metric is computed before model validation. See the repository documentation for the current status of each source.
+
+## Documentation
+
+Architecture, data model and source policy are documented in the [repository](https://github.com/poundthammaratx/bangkok-drainability-observatory).

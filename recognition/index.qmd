@@ -1,0 +1,19 @@
+---
+title: "Recognition"
+subtitle: "Scholarships, fellowships, research support and awards"
+description: "Scholarships, fellowships, research support and awards personally received by Thammarat Yawisit."
+listing:
+  id: recognition-list
+  contents: ../data/recognition.yml
+  template: ../_templates/listings/recognition.ejs
+  sort-ui: false
+  filter-ui: false
+  page-size: 500
+---
+
+::: {.notice}
+Every item below was **personally received**. Funding is described as it was granted (for example, a registration waiver is listed as a waiver, not as a grant). Pending applications or nominations are labelled as such, and recognition held by an institution, group or supervisor is not listed.
+:::
+
+:::{#recognition-list}
+:::

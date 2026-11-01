@@ -1,0 +1,50 @@
+# ============================================================================
+# EDUCATION & ACADEMIC TRAINING. phase: present | past | planned
+# Planned study is shown only when hidden: false AND the owner has approved it.
+# ============================================================================
+
+- title: "B.Eng. in Mechatronics and Automation Engineering"
+  org: "King Mongkut's Institute of Technology Ladkrabang (KMITL), Bangkok, Thailand"
+  start: "Aug 2022"
+  end: "Apr 2026"
+  sortdate: "2022-08"
+  phase: past
+  kind: degree
+  details:
+    - "GPA 3.19 / 4.00."
+    - "Thesis: Design and Implementation of a Liveness-Aware Trigger System for High-Energy Neutrino Detection in Distributed Optical Arrays."
+    - "Advisors: Assoc. Prof. Pittaya Pannil and Assoc. Prof. Amphawan Julsereewong."
+
+- title: "IceCube Summer Student Programme 2025 (overseas research training)"
+  org: "University of Wisconsin–Madison, USA"
+  start: "May 2025"
+  end: "Aug 2025"
+  sortdate: "2025-05"
+  phase: past
+  kind: training
+  details:
+    - "Overseas training graded A."
+    - "Selected by royal decision of Her Royal Highness Princess Maha Chakri Sirindhorn to participate."
+
+- title: "Sino-Thai International Summer School on High Energy Physics and Astrophysics"
+  org: "Sun Yat-sen University, Guangzhou, China"
+  start: "Jul 2026"
+  end: ""
+  sortdate: "2026-07"
+  phase: past
+  kind: training
+  details:
+    - "Selected participant in a three-week programme covering high-energy and astroparticle physics, neutrino physics, particle detection, scientific computing and data analysis."
+    - "Topics included ROOT, Geant4, GLoBES and cosmic-ray muon detection, with exposure to JUNO, LHAASO, CSNS, HIAF and CiADS research directions."
+
+# --- Planned (hidden until the owner approves public disclosure) -----------
+- title: "M.Sc. in Optics and Photonics (planned)"
+  org: "Karlsruhe Institute of Technology (KIT), Germany"
+  start: "Oct 2027"
+  end: ""
+  sortdate: "2027-10"
+  phase: planned
+  kind: degree
+  hidden: true
+  details:
+    - "Planned start Winter Semester 2027/28, subject to admission procedures and funding."

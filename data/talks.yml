@@ -1,0 +1,134 @@
+# ============================================================================
+# TALKS & PRESENTATIONS — authoritative list. Source: CV (Nov 2026).
+# kind: invited | conference | seminar | technical | outreach
+# role: copy the role exactly as it appears on the invitation/programme.
+# Only use kind "invited" when the organisers formally invited the talk.
+# ============================================================================
+
+- title: "Construction and Cosmic Rays Muon-Based Optical Modules Validation for IceCube-Gen2 Neutrino Observatory"
+  event: "Sino-Thai International Summer School on High Energy Physics and Astrophysics 2026"
+  institution: "Sun Yat-sen University, Guangzhou, China"
+  sortdate: "2026-07"
+  date_label: "Jul 2026"
+  kind: invited
+  role: "Invited Speaker, Student Session"
+
+- title: "60-MSPS Coherent-State Measurement of Cherenkov Photon Responses with Contravariance Diagnostics for Astronomical Neutrino Detection"
+  event: "International Nuclear Science and Technology Conference (INST 2026), Plenary Session III: Physics & Engineering"
+  institution: "Bangkok, Thailand"
+  sortdate: "2026-07-13"
+  date_label: "13 Jul 2026"
+  kind: conference
+  role: "Oral presentation"
+
+- title: "Mitigating Deadtime with Liveness-Aware Recursive Triggering in a Simulated Multi-PMT Optical Module for Neutrino Telescopes"
+  event: "28th International Conference on Computing in High Energy and Nuclear Physics (CHEP 2026), Track 2"
+  institution: "Bangkok, Thailand"
+  sortdate: "2026-05-28"
+  date_label: "28 May 2026"
+  kind: conference
+  role: "Oral presentation (Contribution 562)"
+
+- title: "Testing Geometric Scoring for a Liveness-Aware Recursive Trigger in a Simulated Multi-PMT Optical Module for Neutrino Telescopes"
+  event: "28th International Conference on Computing in High Energy and Nuclear Physics (CHEP 2026), Track 2"
+  institution: "Bangkok, Thailand"
+  sortdate: "2026-05-28"
+  date_label: "28 May 2026"
+  kind: conference
+  role: "Oral presentation (Contribution 565)"
+
+- title: "Design and Validation of a Cosmic Muon-Based Testing Method for IceCube-Gen2 Optical Modules"
+  event: "Siam Physics Congress 2026"
+  institution: ""
+  sortdate: "2026-05"
+  date_label: "May 2026"
+  kind: invited
+  role: "Invited Speaker"
+
+- title: "Design and Validation of a Cosmic Muon-Based Testing Method for IceCube-Gen2 Optical Modules"
+  event: "Fundamental Particle Physics Training 2026 (Thai-CERN / DESY / GSI-FAIR / IceCube programme)"
+  institution: "Chulalongkorn University, Bangkok, Thailand"
+  sortdate: "2026-04"
+  date_label: "Apr 2026"
+  kind: invited
+  role: "Invited Speaker"
+
+- title: "Construction and Cosmic Muon-Based Module Validation of Optical Modules for the IceCube-Gen2 Neutrino Observatory"
+  event: "KMITL Overseas Training Research Seminar"
+  institution: "KMITL, Bangkok, Thailand"
+  sortdate: "2025-10"
+  date_label: "Oct 2025"
+  kind: seminar
+  role: "Research presentation"
+
+- title: "IceCube Summer Research on Construction and Cosmic Muon-Based Validation for IceCube-Gen2 Optical Modules"
+  event: "Thai-IceCube Collaboration Seminar 4"
+  institution: "Chiang Mai University, Chiang Mai, Thailand"
+  sortdate: "2025-10"
+  date_label: "Oct 2025"
+  kind: seminar
+  role: "Research presentation"
+
+- title: "Design and Validation of a Cosmic Muon-Based Testing Method for IceCube-Gen2 Optical Modules"
+  event: "WIPAC Group Meeting"
+  institution: "University of Wisconsin–Madison, USA"
+  sortdate: "2025-07-28"
+  date_label: "28 Jul 2025"
+  kind: technical
+  role: "Research presentation"
+
+- title: "IceCube Summer School 2025 Experience Sharing"
+  event: "Thai-IceCube Collaboration Official Visit and MoA-Signing Programme"
+  institution: ""
+  sortdate: "2025-06"
+  date_label: "Jun 2025"
+  kind: outreach
+  role: "Experience-sharing presentation"
+
+- title: "The Roles of Automation Engineers in the Food and Beverage Industry"
+  event: "Industrial Internship Seminar"
+  institution: "KMITL, Bangkok, Thailand"
+  sortdate: "2025-05"
+  date_label: "May 2025"
+  kind: outreach
+  role: "Seminar speaker"
+
+- title: "Strategic Planning of Study Path and Curriculum Management for Undergraduates"
+  event: "Academic Planning Seminar"
+  institution: "KMITL, Bangkok, Thailand"
+  sortdate: "2025-03"
+  date_label: "Mar 2025"
+  kind: outreach
+  role: "Invited speaker (departmental seminar)"
+
+- title: "Overview of Industrial Automation Based on ISA-95 Standard"
+  event: "Programme Introduction Seminar"
+  institution: "KMITL, Bangkok, Thailand"
+  sortdate: "2025-02"
+  date_label: "Feb 2025"
+  kind: outreach
+  role: "Seminar speaker"
+
+- title: "Perspectives on Automation Engineering Program: Trends and Global Extensions"
+  event: "Engineering Admission Interview Seminar"
+  institution: "KMITL, Bangkok, Thailand"
+  sortdate: "2025-01"
+  date_label: "Jan 2025"
+  kind: outreach
+  role: "Seminar speaker"
+
+- title: "Pathway and Overview of Earlier Internship in Automation Engineering"
+  event: "Internship Experience Seminar"
+  institution: "KMITL, Bangkok, Thailand"
+  sortdate: "2024-10"
+  date_label: "Oct 2024"
+  kind: outreach
+  role: "Seminar speaker"
+
+- title: "Integrated Industrial Process Automation, Computational Simulation, and Sustainable Energy Management: A Case Study from ThaiBev"
+  event: "Internship Technical Presentation"
+  institution: "Thai Beverage Public Company Limited (ThaiBev)"
+  sortdate: "2024-07"
+  date_label: "Jul 2024"
+  kind: technical
+  role: "Internship technical presentation"

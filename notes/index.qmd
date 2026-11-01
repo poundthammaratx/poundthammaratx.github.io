@@ -1,0 +1,28 @@
+---
+title: "Notes, Writing & Updates"
+subtitle: "Research notes, engineering notes, tutorials, reviews and professional updates"
+description: "Research notes, engineering notes, tutorials and professional updates by Thammarat Yawisit."
+listing:
+  id: notes-list
+  contents: posts
+  sort: "date desc"
+  type: table
+  fields: [date, title, categories, reading-time]
+  categories: true
+  sort-ui: false
+  filter-ui: true
+  feed:
+    type: partial
+    title: "Thammarat Yawisit — Notes"
+    description: "Research notes, engineering notes and professional updates."
+date-format: "D MMM YYYY"
+---
+
+::: {.notice}
+**Informal writing.** Notes in this section are personal working notes and commentary. They are not peer-reviewed and are separate from the formal research outputs on the [Publications](../publications/index.qmd) page.
+:::
+
+Categories used: *Research Notes*, *Engineering Notes*, *Technical Tutorials*, *Literature Reviews*, *Scientific Commentary*, *Conference Reflections*, *Professional Updates*, *Learning Resources*. Subscribe via [RSS](index.xml).
+
+:::{#notes-list}
+:::

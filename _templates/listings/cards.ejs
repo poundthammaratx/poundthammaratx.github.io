@@ -1,0 +1,21 @@
+<%
+// Card grid for research and engineering project pages.
+// Uses front matter: title, description, categories, status, status_label, period, evidence.
+const statusClass = { ongoing: 'ongoing', completed: 'completed', 'under-review': 'review', planned: 'planned', prototype: 'ongoing', deployed: 'completed' };
+%>
+```{=html}
+<div class="tw-cards list">
+<% for (const item of items) { %>
+  <article class="tw-card" <%= metadataAttrs(item) %>>
+    <% if (item.categories && item.categories.length) { %><div class="card-category"><%= item.categories[0] %></div><% } %>
+    <h3><a href="<%- item.path %>"><%= item.title %></a></h3>
+    <% if (item.description) { %><p><%= item.description %></p><% } %>
+    <div class="meta">
+      <% if (item.status) { %><span class="badge-tw status-<%= statusClass[item.status] || 'info' %>"><%= item['status-label'] || item.status %></span><% } %>
+      <% if (item.evidence) { %><span class="badge-tw status-<%= item.evidence === 'simulation' ? 'simulation' : 'measured' %>"><%= item.evidence === 'simulation' ? 'Simulation study' : item.evidence === 'measurement' ? 'Experimental measurement' : item.evidence %></span><% } %>
+      <% if (item.period) { %><span><%= item.period %></span><% } %>
+    </div>
+  </article>
+<% } %>
+</div>
+```

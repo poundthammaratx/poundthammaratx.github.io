@@ -1,0 +1,12 @@
+/.quarto/
+/_site/
+/_freeze/
+*_files/
+/.luarc.json
+.DS_Store
+Thumbs.db
+.Rproj.user/
+.ipynb_checkpoints/
+__pycache__/
+
+**/*.quarto_ipynb

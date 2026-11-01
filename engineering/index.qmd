@@ -1,0 +1,35 @@
+---
+title: "Engineering, Software & Open Science"
+subtitle: "Instruments, data systems, algorithms and open research software"
+description: "Engineering, scientific software and open-science projects: detector analysis code, open-data systems and computational frameworks."
+listing:
+  id: engineering-projects
+  contents: "*/index.qmd"
+  template: ../_templates/listings/cards.ejs
+  sort: "order"
+  fields: [title, description, categories, status, status-label, evidence, period, path]
+  sort-ui: false
+  filter-ui: false
+  page-size: 50
+---
+
+::: {.section-intro}
+Engineering work that supports research: analysis pipelines for detector validation, open-data systems, computational frameworks and industrial control projects. Each entry documents the engineering problem, architecture, tools, validation and known limitations, and states where code and data are available.
+:::
+
+## Portfolio
+
+:::{#engineering-projects}
+:::
+
+## Open-source repositories
+
+| Repository | Description |
+|---|---|
+| [Cosmic-Ray-Muon-Based-Testing-Source-Code](https://github.com/poundthammaratx/Cosmic-Ray-Muon-Based-Testing-Source-Code) | Analysis code for cosmic-ray muon-based validation of IceCube-Gen2 optical modules |
+| [bangkok-drainability-observatory](https://github.com/poundthammaratx/bangkok-drainability-observatory) | Provenance-preserving open-data observatory for Bangkok drainage information |
+
+
+## Research outputs and datasets
+
+Technical reports and research outputs with DOIs are archived on Zenodo and listed on the [Publications](../publications/index.qmd) page.

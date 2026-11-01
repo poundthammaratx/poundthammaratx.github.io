@@ -1,0 +1,47 @@
+---
+title: "Academic Activities"
+subtitle: "Talks and presentations, teaching and mentoring, and academic service"
+description: "Talks and presentations, laboratory teaching and mentoring, and academic service including conference peer review."
+listing:
+  - id: talks-list
+    contents: ../data/talks.yml
+    template: ../_templates/listings/talks.ejs
+    sort-ui: false
+    filter-ui: false
+    page-size: 500
+  - id: teaching-list
+    contents: ../data/teaching.yml
+    template: ../_templates/listings/timeline.ejs
+    sort-ui: false
+    filter-ui: false
+    page-size: 500
+  - id: service-list
+    contents: ../data/service.yml
+    template: ../_templates/listings/timeline.ejs
+    sort-ui: false
+    filter-ui: false
+    page-size: 500
+---
+
+::: {.section-intro}
+Talks are classified by how they came about: *invited talks* are presentations given at the organisers' invitation; *conference presentations* are accepted contributed talks; *seminars* and *technical presentations* are research reports to groups and collaborations; *outreach & student seminars* are presentations to students and the public.
+:::
+
+## Talks & Presentations {#talks}
+
+:::{#talks-list}
+:::
+
+## Teaching & Mentoring {#teaching}
+
+::: {.notice}
+These are laboratory teaching-assistant and student-mentoring roles held as a student. They are not faculty teaching appointments.
+:::
+
+:::{#teaching-list}
+:::
+
+## Academic Service {#service}
+
+:::{#service-list}
+:::

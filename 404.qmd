@@ -1,0 +1,13 @@
+---
+title: "Page not found"
+toc: false
+---
+
+The page you requested does not exist or has moved. The site was reorganised in November 2026, so older links may point to pages that are no longer available.
+
+- [Home](/index.qmd)
+- [Research](/research/index.qmd)
+- [Publications](/publications/index.qmd)
+- [CV & Contact](/cv/index.qmd)
+
+You can also use the search icon in the navigation bar.

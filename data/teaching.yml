@@ -1,0 +1,36 @@
+# ============================================================================
+# TEACHING & MENTORING. These are student/assistant roles, not faculty
+# teaching appointments. kind: lab-instruction | mentoring | supervision | training
+# ============================================================================
+
+- title: "Laboratory Teaching Assistant — Electromechanical Laboratory"
+  org: "Automation Engineering, KMITL"
+  start: "Nov 2025"
+  end: "Mar 2026"
+  sortdate: "2025-11"
+  kind: lab-instruction
+  details:
+    - "Prepared electrical wiring and control-panel equipment and supported second-year laboratory sessions."
+    - "Supervised wiring standards, safety procedures and experimental workflows during sessions."
+    - "Supervisor: Assoc. Prof. Pittaya Pannil."
+
+- title: "Laboratory Teaching Assistant — Process Automation Laboratory"
+  org: "Automation Engineering, KMITL"
+  start: "Nov 2024"
+  end: "Mar 2025"
+  sortdate: "2024-11"
+  kind: lab-instruction
+  details:
+    - "Supported Process Automation and Microcontroller Systems sessions: hardware/software integration, process-flow and plant monitoring, and reproducible laboratory setup."
+    - "Supervisor: Asst. Prof. Krit Smerpitak."
+
+- title: "Student Mentoring (President and Secretary General)"
+  org: "Mechatronics and Automation Engineering, KMITL"
+  start: "Mar 2023"
+  end: "Mar 2026"
+  sortdate: "2023-03"
+  kind: mentoring
+  details:
+    - "Mentored undergraduates on academic planning, research opportunities, project development and engineering career pathways."
+    - "Coordinated student activities and communication with faculty."
+    - "Also served on the departmental student committee and as Vice-President of the 61st KMITL Engineering student body."

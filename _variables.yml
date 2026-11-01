@@ -1,0 +1,35 @@
+# Single source for identity and contact details.
+# Use in any page with {{< var key >}} (e.g. {{< var position.official >}}).
+# Only add values that have been verified by the site owner.
+
+name: "Thammarat Yawisit"
+nickname: "Pound"
+
+position:
+  # Official job title — from KMITL Order No. 1151/2569 (effective 1 October 2026).
+  official: "Engineer"
+  unit: "Academic Support Division, Office of the Dean, School of Engineering"
+  institution: "King Mongkut's Institute of Technology Ladkrabang (KMITL)"
+  institution_short: "KMITL"
+  city: "Bangkok, Thailand"
+  since: "October 2026"
+  # Functional description of the research work (not an official title).
+  functional: "Research engineer in experimental physics instrumentation and measurement technologies"
+
+contact:
+  # Displayed in obfuscated form. Add an institutional KMITL address once confirmed.
+  email_user: "tyawisit"
+  email_domain: "gmail.com"
+
+profiles:
+  github: "https://github.com/poundthammaratx"
+  # Add only verified URLs. Leave empty until confirmed.
+  orcid: ""
+  scholar: ""
+  linkedin: ""
+  arxiv: ""
+  zenodo: ""
+
+cv:
+  pdf: "/assets/cv/CV_Thammarat_Yawisit.pdf"
+  updated: "November 2026"

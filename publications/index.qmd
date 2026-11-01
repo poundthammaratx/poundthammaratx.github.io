@@ -1,0 +1,19 @@
+---
+title: "Publications"
+subtitle: "Conference contributions, preprints, technical reports and other scholarly outputs"
+description: "Conference contributions, preprints and technical reports by Thammarat Yawisit, with exact publication status, DOIs, arXiv links and BibTeX."
+listing:
+  id: pubs
+  contents: ../data/publications.yml
+  template: ../_templates/listings/publications.ejs
+  sort-ui: false
+  filter-ui: false
+  page-size: 500
+---
+
+::: {.notice}
+**Status is reported exactly.** Items marked *under review*, *submitted* or *preprint* have **not** been accepted for publication in a peer-reviewed venue. Conference contributions are listed with their presentation and proceedings status separately. No citation counts or impact metrics are shown.
+:::
+
+:::{#pubs}
+:::

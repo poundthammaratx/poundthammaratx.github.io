@@ -1,0 +1,106 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "!_templates/"
+    - "!docs/"
+    - "!README.md"
+  resources:
+    - assets/cv/CV_Thammarat_Yawisit.pdf
+    - assets/img/og-portrait.jpg
+    - .nojekyll
+
+# Draft pages (draft: true in front matter) are removed from the public build.
+draft-mode: gone
+
+website:
+  title: "Thammarat Yawisit"
+  description: "Research engineer working on instrumentation, data acquisition and signal processing for experimental astroparticle physics, measurement systems and quantum instrumentation."
+  site-url: "https://poundthammaratx.github.io/"
+  repo-url: "https://github.com/poundthammaratx/poundthammaratx.github.io"
+  favicon: assets/img/favicon.svg
+  image: assets/img/og-portrait.jpg
+  open-graph:
+    locale: en_US
+  twitter-card: true
+  search:
+    location: navbar
+    type: overlay
+  page-navigation: false
+  back-to-top-navigation: true
+  bread-crumbs: false
+  navbar:
+    background: "#11243C"
+    foreground: "#F5F6F7"
+    title: "Thammarat Yawisit"
+    collapse-below: lg
+    left:
+      - text: About
+        href: about/index.qmd
+      - text: Research
+        href: research/index.qmd
+      - text: Publications
+        href: publications/index.qmd
+      - text: Engineering
+        href: engineering/index.qmd
+      - text: Activities
+        menu:
+          - text: Overview
+            href: activities/index.qmd
+          - text: Talks & Presentations
+            href: activities/index.qmd#talks
+          - text: Teaching & Mentoring
+            href: activities/index.qmd#teaching
+          - text: Academic Service
+            href: activities/index.qmd#service
+      - text: Recognition
+        href: recognition/index.qmd
+      - text: Notes
+        href: notes/index.qmd
+      - text: CV
+        href: cv/index.qmd
+    right:
+      - icon: github
+        href: "https://github.com/poundthammaratx"
+        aria-label: "GitHub profile"
+  page-footer:
+    background: "#11243C"
+    foreground: "#C9D1DB"
+    left: |
+      © 2026 Thammarat Yawisit · Content licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) unless noted.
+    right:
+      - text: "Contact"
+        href: cv/index.qmd#contact
+      - text: "RSS"
+        href: notes/index.xml
+      - icon: github
+        href: "https://github.com/poundthammaratx"
+        aria-label: "GitHub profile"
+  # Analytics: disabled until configured. Uncomment and add a measurement ID.
+  # google-analytics: "G-XXXXXXXXXX"
+  # cookie-consent: true
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles/theme.scss]
+    css: styles/site.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    anchor-sections: true
+    code-copy: true
+    highlight-style: github
+    lang: en
+    # Math is off by default to keep pages light; enabled for notes in
+    # notes/posts/_metadata.yml. Add `html-math-method: mathjax` to any page that needs equations.
+    html-math-method: plain
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+    include-after-body:
+      - file: _includes/filters.html

@@ -1,0 +1,104 @@
+# ============================================================================
+# APPOINTMENTS & RESEARCH EXPERIENCE — authoritative source for About and CV.
+# official_title: the title on the appointment document (only fill if verified).
+# title: what is displayed. For research roles, use the title stated on the
+#        contract/letter; do not upgrade titles.
+# phase: present | past | planned
+# group: appointment | research | other  (controls which About-page section shows it)
+# Sources: KMITL Order No. 1151/2569 (14 Oct 2026); CV (Nov 2026).
+# ============================================================================
+
+- title: "Engineer"
+  org: "Academic Support Division, Office of the Dean, School of Engineering, King Mongkut's Institute of Technology Ladkrabang (KMITL)"
+  start: "Oct 2026"
+  end: "present"
+  sortdate: "2026-10"
+  phase: present
+  kind: appointment
+  group: appointment
+  international: false
+  details:
+    - "Institute employee appointed under KMITL Order No. 1151/2569, effective 1 October 2026."
+    - "Current project work: installation and commissioning of the SpinQ Gemini nuclear magnetic resonance (NMR) quantum computer (NMRCQ)."
+  verified_by: "KMITL Order No. 1151/2569"
+
+- title: "Research Engineer"
+  org: "Chulabhorn Royal Academy – Princess Srisavangavadhana Faculty of Medicine"
+  start: "Apr 2026"
+  end: "Sep 2026"
+  sortdate: "2026-04"
+  phase: past
+  kind: research
+  group: research
+  international: false
+  details:
+    - "Project: Development and Validation of a Computational Framework for Radiation-Induced DNA Double-Strand Break Repair Kinetics."
+    - "Supervisor: Assoc. Prof. Thiansin Liamsuwan, Ph.D."
+  verified_by: "CV"
+
+- title: "Research Assistant"
+  org: "School of Engineering, King Mongkut's Institute of Technology Ladkrabang (KMITL)"
+  start: "Sep 2025"
+  end: "Mar 2026"
+  sortdate: "2025-09"
+  phase: past
+  kind: research
+  group: research
+  international: false
+  details:
+    - "Project: Liveness-Aware Signal Processing and Trigger Development for Neutrino Telescopes."
+    - "Supervisors: Assoc. Prof. Pittaya Pannil and Assoc. Prof. Amphawan Julsereewong."
+  verified_by: "CV"
+
+- title: "Research Engineer Intern, IceCube Neutrino Observatory"
+  org: "Wisconsin IceCube Particle Astrophysics Center (WIPAC), University of Wisconsin–Madison, USA"
+  start: "May 2025"
+  end: "Aug 2025"
+  sortdate: "2025-05"
+  phase: past
+  kind: research
+  group: research
+  international: true
+  details:
+    - "Project: Design and Validation of a Cosmic Muon-Based Testing Method for IceCube-Gen2 Optical Modules."
+    - "Supervisors: Dr. Yuya Makino, Chris Wendt, and Albrecht Karle."
+  verified_by: "CV"
+
+- title: "Fellow, Panasonic Scholarship Asia 2023"
+  org: "Panasonic"
+  start: "Oct 2023"
+  end: "Jul 2026"
+  sortdate: "2023-10"
+  phase: past
+  kind: fellowship
+  group: other
+  international: false
+  details:
+    - "Supervisor: Thammarong Ondeesawat."
+  verified_by: "CV"
+
+- title: "Automation Engineer Intern"
+  org: "Thai Beverage Public Company Limited (ThaiBev)"
+  start: "May 2024"
+  end: "Jul 2024"
+  sortdate: "2024-05"
+  phase: past
+  kind: industry
+  group: other
+  international: false
+  details:
+    - "Project: Process Automation Design and Predictive Maintenance for ThaiBev Fermentation Systems."
+  verified_by: "CV"
+
+- title: "Data Analyst Intern"
+  org: "The Viriyah Insurance Public Company Limited"
+  start: "Mar 2022"
+  end: "May 2022"
+  sortdate: "2022-03"
+  phase: past
+  kind: industry
+  group: other
+  international: false
+  details:
+    - "Project: Insurance Claim System Visualization using Power BI."
+  verified_by: "CV"

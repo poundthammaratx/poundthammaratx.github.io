@@ -1,0 +1,102 @@
+---
+title: "Cosmic Muon-Based Testing of IceCube-Gen2 Optical Modules"
+subtitle: "Design and validation of a testing method for multi-PMT optical modules using atmospheric muons"
+description: "A testing and validation method for IceCube-Gen2 optical modules that uses naturally occurring cosmic-ray muons, developed at WIPAC during the IceCube Summer Student Programme 2025."
+categories: [Neutrino Telescope Instrumentation, Detector Characterization and Validation, Experimental Astroparticle Physics]
+status: completed
+status-label: "Completed"
+evidence: measurement
+period: "May – Aug 2025"
+featured: true
+order: 1
+---
+
+::: {.facts}
+::: {}
+Category
+:::
+::: {}
+Neutrino telescope instrumentation; detector characterization and validation
+:::
+::: {}
+Institution
+:::
+::: {}
+Wisconsin IceCube Particle Astrophysics Center (WIPAC), University of Wisconsin–Madison, USA
+:::
+::: {}
+Role
+:::
+::: {}
+Research Engineer Intern (IceCube Summer Student Programme 2025)
+:::
+::: {}
+Supervision
+:::
+::: {}
+Dr. Yuya Makino, Chris Wendt and Albrecht Karle
+:::
+::: {}
+Period
+:::
+::: {}
+May – August 2025 · [Completed]{.badge-tw .status-completed}
+:::
+::: {}
+Evidence type
+:::
+::: {}
+[Experimental measurement]{.badge-tw .status-measured} with detector hardware at WIPAC
+:::
+::: {}
+Outputs
+:::
+::: {}
+Technical report ([DOI 10.5281/zenodo.18614095](https://doi.org/10.5281/zenodo.18614095)); analysis code ([GitHub](https://github.com/poundthammaratx/Cosmic-Ray-Muon-Based-Testing-Source-Code))
+:::
+:::
+
+## Scientific motivation
+
+IceCube-Gen2 will add a large number of new optical modules to the IceCube Neutrino Observatory at the South Pole. Each module has to be checked before deployment, and atmospheric muons offer a naturally occurring, continuously available signal that can be used to test the response of a module and its photomultiplier tubes (PMTs) without a dedicated calibration source.
+
+## Objectives
+
+- Design a testing method for IceCube-Gen2 optical modules based on cosmic-ray muons.
+- Validate the method on optical-module hardware during the 2025 summer research programme.
+- Provide reusable analysis code and a written technical record of the method.
+
+## Methodology
+
+The analysis works at the waveform level on data recorded from the optical modules (LOM-16). The published analysis code implements:
+
+- waveform processing and charge integration;
+- coincidence-based muon event selection;
+- PMT-level and module-level performance characterization;
+- cross-checks of detector stability and response uniformity;
+- figure generation for validation and reporting.
+
+## Individual role and contributions
+
+My project in the programme was the design and validation of the cosmic muon-based testing method, carried out under the supervision listed above. I developed the analysis code published in the public repository, co-authored the technical report with my supervisors, and presented the work at the WIPAC Group Meeting on 28 July 2025. A separate single-author report documents my work on optical-module construction and validation during the programme.
+
+## Results and limitations
+
+The full method and results are documented in the technical report linked above. The public repository contains analysis code only: raw detector data, internal calibration files and collaboration-restricted material are not included, and the code is not an official IceCube software product.
+
+<!-- OWNER TO ADD: 2–4 sentences summarising the key quantitative result from the Zenodo report, and one figure (e.g. a coincidence-rate or charge-distribution plot) with alt text. -->
+
+## Related publications
+
+- T. Yawisit, Y. Makino, C. Wendt (2025). *Design and Validation of a Cosmic Muon-Based Testing Method for IceCube-Gen2 Optical Modules.* Research technical report, WIPAC. [doi:10.5281/zenodo.18614095](https://doi.org/10.5281/zenodo.18614095)
+- T. Yawisit (2025). *Construction and Cosmic Muon-Based Validation of Optical Modules for the IceCube-Gen2 Neutrino Observatory.* Overseas training technical report. [doi:10.5281/zenodo.23020724](https://doi.org/10.5281/zenodo.23020724)
+- T. Yawisit (2025). *The 2025 IceCube Summer Student Programme under the Royal Initiative of Her Royal Highness Princess Maha Chakri Sirindhorn.* Programme report. [doi:10.5281/zenodo.23021859](https://doi.org/10.5281/zenodo.23021859)
+
+## Presentations
+
+Presented at the WIPAC Group Meeting (July 2025), Thai-IceCube Collaboration Seminar 4 (October 2025), Fundamental Particle Physics Training 2026 at Chulalongkorn University (April 2026, invited), Siam Physics Congress 2026 (May 2026, invited) and the Sino-Thai International Summer School on HEP and Astrophysics 2026 (July 2026, invited student session). See [Talks & Presentations](/activities/index.qmd#talks).
+
+## Code and data
+
+- Analysis code: [poundthammaratx/Cosmic-Ray-Muon-Based-Testing-Source-Code](https://github.com/poundthammaratx/Cosmic-Ray-Muon-Based-Testing-Source-Code) — see also the [engineering entry](/engineering/muon-testing-analysis-code/index.qmd).
+- Data: IceCube detector data are not publicly redistributed.

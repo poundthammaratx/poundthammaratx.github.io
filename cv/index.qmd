@@ -1,0 +1,74 @@
+---
+title: "Curriculum Vitae & Contact"
+subtitle: "Academic and professional summary · CV last updated {{< var cv.updated >}}"
+description: "Curriculum vitae summary, downloadable CV and contact details for Thammarat Yawisit."
+toc: true
+toc-location: right
+toc-title: "On this page"
+listing:
+  - id: cv-education
+    contents: ../data/education.yml
+    template: ../_templates/listings/timeline.ejs
+    sort-ui: false
+    filter-ui: false
+    page-size: 100
+  - id: cv-experience
+    contents: ../data/appointments.yml
+    template: ../_templates/listings/timeline.ejs
+    sort-ui: false
+    filter-ui: false
+    page-size: 100
+---
+
+::: {.hero-links}
+[Download full CV (PDF)](../assets/cv/CV_Thammarat_Yawisit.pdf){.btn-tw .primary}
+[Publications](../publications/index.qmd){.btn-tw}
+[Talks & service](../activities/index.qmd){.btn-tw}
+[Recognition](../recognition/index.qmd){.btn-tw}
+:::
+
+## Summary
+
+Engineer in the Academic Support Division, Office of the Dean, School of Engineering, KMITL, with research experience in neutrino-telescope instrumentation (IceCube-Gen2 optical-module testing at WIPAC), trigger and signal-processing methods for detectors with intermittent channel availability, scientific computing and open research software. B.Eng. in Mechatronics and Automation Engineering, KMITL (2026).
+
+## Research expertise
+
+Detector testing and validation · trigger and data-acquisition methods · measurement algorithms and signal processing · measurement, control and automation systems · scientific software. See [Technical expertise](../about/index.qmd#expertise) for where each was applied.
+
+## Education and training
+
+:::{#cv-education}
+:::
+
+## Appointments and experience
+
+:::{#cv-experience}
+:::
+
+## Languages
+
+- Thai: native.
+- English: IELTS Academic overall 6.5 (6 December 2025).
+
+## Contact {#contact}
+
+::: {.contact-grid}
+::: {}
+### Email
+
+[{{< var contact.email_user >}} (at) {{< var contact.email_domain >}}]{.obf-email}
+:::
+
+::: {}
+### Institutional address
+
+{{< var position.unit >}}<br>{{< var position.institution >}}<br>{{< var position.city >}}
+:::
+
+::: {}
+### Profiles and repositories
+
+[GitHub](https://github.com/poundthammaratx)<br>
+[Zenodo records](../publications/index.qmd) (via DOIs on the publications page)
+:::
+:::

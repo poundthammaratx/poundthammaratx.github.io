@@ -1,0 +1,95 @@
+# ============================================================================
+# RECOGNITION. One record per item personally received.
+# category: scholarship | award | fellowship | grant | support | institutional
+# status  : awarded | received | approved | allocated | pending | nominated
+#   - "awarded"/"received": personally granted and confirmed in writing
+#   - "allocated"/"approved": funding approved but not necessarily disbursed
+#   - "pending"/"nominated": application or nomination not yet decided
+# Never list an award held by an institution, group or supervisor.
+# ============================================================================
+
+- title: "Thai-JUNO Consortium Scholarship"
+  category: scholarship
+  status: received
+  year: 2026
+  details: "Registration support for the Sino-Thai International Summer School on High Energy Physics and Astrophysics, Sun Yat-sen University, Guangzhou, China."
+
+- title: "CHEP 2026 Student Financial Support"
+  category: support
+  status: received
+  year: 2026
+  details: "Full registration waiver for CHEP 2026, Chulalongkorn University, Bangkok, Thailand."
+
+- title: "IceCube Summer Research Fellowship"
+  category: fellowship
+  status: received
+  year: 2025
+  details: "Institutional research-training support from WIPAC, University of Wisconsin–Madison, USA."
+
+- title: "Royal Patronage Full Scholarship, IceCube Summer Student Programme"
+  category: scholarship
+  status: received
+  year: 2025
+  details: "Supported by the Information Technology Foundation under the Initiative of Her Royal Highness Princess Maha Chakri Sirindhorn."
+
+- title: "KMITL Honor Institutional Prestige Scholarship"
+  category: scholarship
+  status: received
+  year: 2025
+  details: "One-year full tuition waiver from the School of Engineering, KMITL."
+
+- title: "KMITL Top-Ranked Scholarship for Overseas Training in North America"
+  category: scholarship
+  status: received
+  year: 2025
+  details: "Institutional support for international research training from the Office of International Affairs, KMITL."
+
+- title: "Panasonic Scholarship Asia / Thailand Future Gear Award"
+  category: scholarship
+  status: received
+  year: 2023
+  details: "Long-term scholarship support covering tuition, academic development, leadership training and corporate social engagement."
+
+- title: "Royal Thai Air Force National “Chang Phueak” Programme"
+  category: scholarship
+  status: received
+  year: 2022
+  details: "Selected through a competitive national scholarship programme; ranked 13th of 1,242 applicants."
+
+- title: "Royal Consideration for the IceCube Summer Student Programme"
+  category: award
+  status: received
+  year: 2025
+  details: "Selected to represent Thailand; first Thai engineering student selected for the programme."
+
+- title: "KMITL Honor Institutional Prestige Award"
+  category: institutional
+  status: received
+  year: 2025
+  details: ""
+
+- title: "KMITL Pioneering Achievement Award"
+  category: institutional
+  status: received
+  year: 2025
+  details: ""
+
+- title: "ThaiBev Internship Special Contribution Award"
+  category: award
+  status: received
+  year: 2024
+  details: ""
+
+- title: "Panasonic Scholarship Asia: Founder’s Philosophy Award"
+  category: award
+  status: received
+  year: 2023
+  details: ""
+
+# --- Hidden until the owner approves public disclosure ----------------------
+- title: "Government Science and Technology Scholarship (Public Sector Personnel Development) — nomination"
+  category: scholarship
+  status: nominated
+  year: 2026
+  hidden: true
+  details: "Nominated by the School of Engineering, KMITL, as its designated candidate in a request for allocation (memorandum dated 22 October 2026). Allocation not yet decided."

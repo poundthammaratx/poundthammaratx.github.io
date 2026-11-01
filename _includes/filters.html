@@ -1,0 +1,41 @@
+<script>
+// Lightweight record filtering for publication and talk archives.
+// A .filter-bar[data-filter-group=X] controls [data-filter-target=X] .record items
+// via <select data-filter-key="field"> matched against data-field attributes.
+(function () {
+  document.querySelectorAll('.filter-bar[data-filter-group]').forEach(function (bar) {
+    var group = bar.getAttribute('data-filter-group');
+    var target = document.querySelector('[data-filter-target="' + group + '"]');
+    if (!target) return;
+    var selects = bar.querySelectorAll('select[data-filter-key]');
+    var counter = bar.querySelector('.filter-count');
+    var records = target.querySelectorAll('.record');
+    function apply() {
+      var shown = 0;
+      records.forEach(function (r) {
+        var ok = true;
+        selects.forEach(function (s) {
+          var v = s.value; if (v && r.getAttribute('data-' + s.getAttribute('data-filter-key')) !== v) ok = false;
+        });
+        r.hidden = !ok; if (ok) shown++;
+      });
+      target.querySelectorAll('[data-year-heading]').forEach(function (h) {
+        var list = h.nextElementSibling;
+        var any = list && list.querySelector('.record:not([hidden])');
+        h.hidden = !any; if (list) list.hidden = !any;
+      });
+      if (counter) counter.textContent = shown + ' of ' + records.length + ' shown';
+    }
+    selects.forEach(function (s) { s.addEventListener('change', apply); });
+    apply();
+  });
+})();
+</script>
+<script>
+// Assemble obfuscated e-mail addresses into mailto links.
+document.querySelectorAll('.obf-email').forEach(function (el) {
+  var a = el.textContent.replace(/\s*\(at\)\s*/, '@').trim();
+  var link = document.createElement('a'); link.href = 'mailto:' + a; link.textContent = a;
+  el.replaceWith(link);
+});
+</script>

@@ -1,0 +1,41 @@
+<%
+const kinds = { invited: 'Invited talk', conference: 'Conference presentation', seminar: 'Seminar', technical: 'Technical presentation', outreach: 'Outreach & student seminar' };
+// `template-params: {mode: recent, count: N}` renders the N most recent non-outreach talks.
+const tp = (typeof templateParams !== 'undefined' && templateParams) || {};
+const compact = tp.mode === 'recent';
+let rows = items.filter(it => !it.hidden);
+rows.sort((a, b) => String(b.sortdate || '').localeCompare(String(a.sortdate || '')));
+if (compact) rows = rows.filter(it => it.kind !== 'outreach').slice(0, Number(tp.count) || 4);
+const yearOf = (it) => String(it.sortdate || '').slice(0, 4);
+const years = [...new Set(rows.map(yearOf))];
+%>
+```{=html}
+<% if (!compact) { %>
+<div class="filter-bar" data-filter-group="talks" aria-label="Filter talks">
+  <label>Type
+    <select data-filter-key="kind"><option value="">All types</option><% for (const k of Object.keys(kinds)) { if (rows.some(r => r.kind === k)) { %><option value="<%= k %>"><%= kinds[k] %></option><% } } %></select>
+  </label>
+  <label>Year
+    <select data-filter-key="year"><option value="">All years</option><% for (const y of years) { %><option value="<%= y %>"><%= y %></option><% } %></select>
+  </label>
+  <span class="filter-count" aria-live="polite"></span>
+</div>
+<% } %>
+<div data-filter-target="talks">
+<% for (const y of years) { %>
+  <% if (!compact) { %><h3 class="year-heading" data-year-heading="<%= y %>"><%= y %></h3><% } %>
+  <ul class="records timeline">
+  <% for (const it of rows.filter(r => yearOf(r) === y)) { %>
+    <li class="record" data-kind="<%= it.kind %>" data-year="<%= y %>">
+      <div class="t-date"><%= it.date_label %></div>
+      <div>
+        <p class="r-title"><%= it.title %></p>
+        <p class="t-org"><%= it.event %><% if (it.institution) { %> · <%= it.institution %><% } %></p>
+        <div class="r-meta"><span class="badge-tw <%= it.kind === 'invited' ? 'status-published' : 'status-info' %>"><%= kinds[it.kind] || it.kind %></span><span class="r-note" style="margin:0"><%= it.role %></span><% if (it.slides) { %><a href="<%= it.slides %>">Slides</a><% } %><% if (it.url) { %><a href="<%= it.url %>">Event</a><% } %></div>
+      </div>
+    </li>
+  <% } %>
+  </ul>
+<% } %>
+</div>
+```

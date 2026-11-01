@@ -1,0 +1,27 @@
+---
+title: "System or software name"
+subtitle: "One-line description"
+description: "One or two sentences shown on the card."
+categories: [Scientific Software]   # Scientific Instruments | Electronics and Detector Systems | Data Acquisition Systems | Embedded and Control Systems | Scientific Algorithms | Numerical Simulations | Scientific Software | Open Science | Research Datasets | Reproducible Workflows
+status: completed          # ongoing | completed | prototype | deployed
+status-label: "Released"
+period: "YYYY"
+order: 10
+draft: true
+---
+
+## Engineering problem
+## System requirements
+## System architecture
+
+```
+block diagram (text) or replace with an SVG figure
+```
+
+## Tools and technologies
+## Design decisions
+## Validation procedures
+## Performance evidence
+## Known limitations
+## Documentation
+## Code and dataset availability
