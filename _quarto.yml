@@ -61,6 +61,15 @@ website:
       - text: CV
         href: cv/index.qmd
     right:
+      - text: "ORCID"
+        href: "https://orcid.org/0009-0006-9298-8862"
+        aria-label: "ORCID profile"
+      - icon: mortarboard
+        href: "https://scholar.google.com/citations?user=w1ewAQ0AAAAJ"
+        aria-label: "Google Scholar profile"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/thammaratya"
+        aria-label: "LinkedIn profile"
       - icon: github
         href: "https://github.com/poundthammaratx"
         aria-label: "GitHub profile"

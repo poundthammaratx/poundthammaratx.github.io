@@ -72,6 +72,8 @@ I work on the measurement chain of experimental physics: testing detector hardwa
 [Download CV (PDF)](assets/cv/CV_Thammarat_Yawisit.pdf){.btn-tw .primary}
 [Publications](publications/index.qmd){.btn-tw}
 [Research](research/index.qmd){.btn-tw}
+[ORCID](https://orcid.org/0009-0006-9298-8862){.btn-tw}
+[Google Scholar](https://scholar.google.com/citations?user=w1ewAQ0AAAAJ){.btn-tw}
 [GitHub](https://github.com/poundthammaratx){.btn-tw}
 [Contact](cv/index.qmd#contact){.btn-tw}
 :::
@@ -163,6 +165,9 @@ Engineer in the Academic Support Division, School of Engineering, KMITL (since O
 ::: {}
 ### Profiles
 
+[ORCID](https://orcid.org/0009-0006-9298-8862)<br>
+[Google Scholar](https://scholar.google.com/citations?user=w1ewAQ0AAAAJ)<br>
+[LinkedIn](https://www.linkedin.com/in/thammaratya)<br>
 [GitHub](https://github.com/poundthammaratx)
 :::
 :::

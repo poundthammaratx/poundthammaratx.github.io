@@ -15,7 +15,7 @@ Status as of the initial Quarto build (1 November 2026). Sources: `CV_Thammarat_
 
 - [x] No item labelled published or peer reviewed. CHEP 2026 proceedings: *under review*. IEEE SAS 2027: *submitted, decision pending*. arXiv:2512.20678: *preprint*.
 - [x] arXiv identifiers and author lists checked against arXiv for 2601.18114, 2601.17043, 2610.24003 and 2512.20678.
-- [ ] **Owner to confirm:** the CHEP 2026 contribution titles (from the CV) differ from the arXiv titles of 2601.18114 and 2601.17043. The site shows the CV titles and notes the arXiv titles.
+- [x] **Owner confirmed (1 Nov 2026):** use the CV titles. The CHEP 2026 contribution titles (from the CV) differ from the arXiv titles of 2601.18114 and 2601.17043. The site shows the CV titles and notes the arXiv titles.
 - [ ] Zenodo DOIs (18614095, 23020724, 23021859, 19332410) could not be opened from the build environment; click each once after deployment.
 - [ ] Abstracts are empty. Paste each verbatim from arXiv/Zenodo into `data/publications.yml`.
 - [x] No citation counts, quartiles or impact metrics.
@@ -25,18 +25,18 @@ Status as of the initial Quarto build (1 November 2026). Sources: `CV_Thammarat_
 - [x] Each item personally received per the CV; registration waiver and registration support described as such.
 - [x] Government Science and Technology Scholarship nomination (memo of 22 Oct 2026) is **hidden**: it is a nomination/request for allocation, not an award.
 - [x] Planned M.Sc. at KIT (WS 2027/28) is **hidden** in `data/education.yml`.
-- [ ] **Owner to decide** whether to show either of these publicly; if so set `hidden: false` (labels already say "Nominated · decision pending" / "Planned").
+- [x] **Owner decided (1 Nov 2026):** keep both hidden for now. To show later, set `hidden: false` (labels already say "Nominated · decision pending" / "Planned").
 
 ## Privacy
 
 - [x] Home address, phone number and referee contacts are not shown on any page.
-- [ ] **Owner to decide:** the downloadable CV PDF includes your home address, phone number and referees' e-mail addresses. Consider uploading a public version without them.
+- [x] **Owner approved (1 Nov 2026)** publishing the current CV PDF, which includes your home address, phone number and referees' e-mail addresses. Consider uploading a public version without them.
 - [x] E-mail displayed in obfuscated form; only the personal Gmail address is shown (the IceCube address may not be current). Add a KMITL address in `_variables.yml` once confirmed.
 
 ## Profiles and links
 
 - [x] GitHub profile verified (repository owner).
-- [ ] ORCID, Google Scholar, LinkedIn: not yet provided, so not shown.
+- [x] ORCID, Google Scholar and LinkedIn URLs supplied by the owner (1 Nov 2026) and linked in the navbar, Home and CV.
 - [x] Internal links: automated check found no broken links in the build.
 - [ ] Locations for Siam Physics Congress 2026 and the Thai-IceCube MoA-signing visit are not in the CV and are left blank.
 

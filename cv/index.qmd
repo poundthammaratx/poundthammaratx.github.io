@@ -68,6 +68,9 @@ Detector testing and validation · trigger and data-acquisition methods · measu
 ::: {}
 ### Profiles and repositories
 
+[ORCID](https://orcid.org/0009-0006-9298-8862)<br>
+[Google Scholar](https://scholar.google.com/citations?user=w1ewAQ0AAAAJ)<br>
+[LinkedIn](https://www.linkedin.com/in/thammaratya)<br>
 [GitHub](https://github.com/poundthammaratx)<br>
 [Zenodo records](../publications/index.qmd) (via DOIs on the publications page)
 :::
