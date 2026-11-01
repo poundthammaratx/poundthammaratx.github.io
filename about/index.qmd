@@ -64,13 +64,14 @@ In October 2026 the School of Engineering nominated him as its candidate for a G
 - Optics, photonics and advanced electronics
 - Quantum computing and quantum instrumentation
 - Scientific software and computational methods
+- Space science, deep-space observation and space technology
 :::
 
 ## Research statement {#statement}
 
 Large physics experiments depend on a long measurement chain — sensors, front-end electronics, triggers, data acquisition and analysis — and the reliability of a physics result is limited by the weakest link in that chain. My work focuses on that chain: how to test detector hardware with natural signals such as cosmic-ray muons, how to design trigger logic that stays efficient when some channels are temporarily unavailable, and how to quantify the reliability of a signal when part of the readout is lost.
 
-So far this has meant hardware-based validation work on IceCube-Gen2 optical modules and simulation studies of trigger and coherence methods for multi-PMT modules. The simulation results still need to be tested against real detector conditions, and that is a direction I would like to pursue. More broadly, I am interested in measurement and instrumentation problems where engineering methods (control, signal processing, embedded systems and careful validation) directly affect the quality of scientific data, including in optics, photonics and quantum instrumentation.
+So far this has meant hardware-based validation work on IceCube-Gen2 optical modules and simulation studies of trigger and coherence methods for multi-PMT modules. The simulation results still need to be tested against real detector conditions, and that is a direction I would like to pursue. More broadly, I am interested in measurement and instrumentation problems where engineering methods (control, signal processing, embedded systems and careful validation) directly affect the quality of scientific data, including in optics, photonics and quantum instrumentation. I also see this work as a bridge to space science: neutrino telescopes are deep-space observatories, and the problems of verifying hardware before it becomes unreachable and keeping triggers reliable as channels fail are shared with space instruments (see [Space Science & Technology](../research/space/index.qmd)).
 
 ## Education and academic training {#education}
 

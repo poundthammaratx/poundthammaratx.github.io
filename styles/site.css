@@ -166,3 +166,4 @@ nav#TOC .nav-link.active { color: var(--tw-accent); border-left-color: var(--tw-
 }
 .navbar a, .navbar li a, .nav-footer a, .dropdown-item, .sidebar a, nav#TOC a { text-decoration: none !important; }
 .qa-grid > div { border-color: var(--tw-line-2); }
+@media (max-width: 767.98px) { main table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; } }

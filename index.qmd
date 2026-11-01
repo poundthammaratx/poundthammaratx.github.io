@@ -6,7 +6,9 @@ title-block-banner: false
 toc: false
 listing:
   - id: featured-research
-    contents: "research/*/index.qmd"
+    contents:
+      - "research/*/index.qmd"
+      - "!research/space/index.qmd"
     include:
       featured: true
     template: _templates/listings/cards.ejs
@@ -127,6 +129,7 @@ Engineer in the Academic Support Division, School of Engineering, KMITL (since O
 - Optics, photonics and advanced electronics
 - Quantum computing and quantum instrumentation
 - Scientific software and computational methods
+- Space science, deep-space observation and space technology
 :::
 
 ## Selected research
@@ -134,7 +137,7 @@ Engineer in the Academic Support Division, School of Engineering, KMITL (since O
 :::{#featured-research}
 :::
 
-[All research projects →](research/index.qmd)
+[All research projects →](research/index.qmd) · [Space science & technology →](research/space/index.qmd)
 
 ## Featured publications
 

@@ -1,0 +1,84 @@
+---
+title: "Space Science & Technology"
+subtitle: "How detector instrumentation for astroparticle physics connects to deep-space observation and space engineering"
+description: "Research direction connecting neutrino-telescope instrumentation, trigger reliability and photonics to space science, deep-space observation and space technology."
+toc: true
+toc-location: right
+toc-title: "On this page"
+---
+
+::: {.notice}
+**Research direction, not past space-flight work.** This page explains how my completed and current work relates to space science and space technology, and where I want to take it. I have not yet worked on a space mission or flight hardware. Each connection below names the existing work it builds on.
+:::
+
+## Why the connection is natural
+
+Neutrino telescopes are observatories for deep space. IceCube watches for high-energy neutrinos produced by cosmic accelerators far outside the Galaxy, and it is one of the instruments of **multi-messenger astronomy**, alongside space-based gamma-ray and X-ray telescopes and gravitational-wave detectors. The engineering behind such observatories, with sensitive light detectors, fast and reliable triggers, and instruments that must work unattended in extreme environments, is the same engineering that space instruments need.
+
+My work sits on that shared ground: the **measurement chain** that turns a faint physical signal from space into data that can be trusted.
+
+## Four connected threads
+
+::: {.tw-cards}
+::: {.tw-card}
+[Deep-space observation]{.card-category}
+
+### Observing the universe through particles
+
+Cosmic-ray muons, the signal I used to validate IceCube-Gen2 optical modules, are produced when cosmic rays from space strike the atmosphere. Neutrino telescopes extend this to particles arriving from distant galaxies.
+
+[Builds on: [IceCube-Gen2 module testing](../icecube-gen2-muon-testing/index.qmd)]{.r-note}
+:::
+
+::: {.tw-card}
+[Space instrumentation]{.card-category}
+
+### Detectors for extreme environments
+
+Optical modules for the South Pole must be built, tested and verified before deployment, because they cannot be repaired once frozen into the ice. Space instruments face the same constraint after launch, along with thermal, radiation and power limits.
+
+[Builds on: LOM-16 construction and pre-freezer verification at WIPAC]{.r-note}
+:::
+
+::: {.tw-card}
+[Space engineering]{.card-category}
+
+### Reliable triggering with failing channels
+
+Space-borne detectors lose channels to radiation effects, saturation and ageing, and they must decide on board what data to keep. My work on liveness-aware triggering asks how detection efficiency can be preserved when parts of a sensor array are temporarily unavailable.
+
+[Builds on: [Liveness-aware triggering](../liveness-aware-trigger/index.qmd) (simulation)]{.r-note}
+:::
+
+::: {.tw-card}
+[Space technology]{.card-category}
+
+### Optics, photonics and quantum sensing
+
+Photonic devices, optical sensing and quantum measurement are core technologies for space telescopes, optical communication and precision sensors. This is the focus of my planned M.Sc. in Optics and Photonics and of my current work commissioning an NMR quantum computer.
+
+[Builds on: [NMR quantum computer commissioning](../nmr-quantum-computer-commissioning/index.qmd); planned M.Sc. at KIT]{.r-note}
+:::
+:::
+
+## Mapping current work to space applications
+
+| My work (status) | Shared problem | Space-science or space-technology counterpart |
+|---|---|---|
+| Cosmic muon-based testing of IceCube-Gen2 optical modules (completed, measured) | Calibrating photodetectors with natural signals | In-flight calibration of space detectors with cosmic rays and other natural sources |
+| LOM-16 construction and pre-freezer verification (completed) | Hardware that cannot be repaired after deployment | Qualification and acceptance testing of flight hardware before launch |
+| Liveness-aware triggering for multi-PMT modules (simulation) | Keeping trigger efficiency when channels are dead or saturated | On-board triggering and fault tolerance in space-borne particle and photon detectors |
+| Readout-loss and signal-reliability analysis (submitted) | Quantifying confidence when part of the light is lost | Data-quality assessment for remote instruments with limited downlink |
+| Multichannel coherence under intermittent observations (preprint) | Combining channels that are not always observing | Combining observations from instruments or spacecraft with gaps in coverage |
+| NMR quantum computer commissioning (ongoing) | Precise control and measurement of quantum systems | Quantum sensors and precision measurement for space |
+| Planned M.Sc. in Optics and Photonics (planned) | Photonic devices, optical sensing, detection and testing | Optical payloads, photonic sensors and optical communication |
+
+
+## Directions I want to pursue
+
+- **Instrumentation for space-based and multi-messenger astronomy**, including photodetectors and readout for particle and photon detection.
+- **Fault-tolerant on-board triggering and data selection** for detectors whose channels degrade over a mission.
+- **Photonic and quantum sensors** for precision measurement in space.
+- **Verification and qualification methods** that make hardware trustworthy before it is deployed where it cannot be serviced.
+
+These are interests and plans. They will be listed under [Research](../index.qmd) as projects only when there is work to show.

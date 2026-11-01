@@ -39,7 +39,11 @@ website:
       - text: About
         href: about/index.qmd
       - text: Research
-        href: research/index.qmd
+        menu:
+          - text: All projects
+            href: research/index.qmd
+          - text: Space Science & Technology
+            href: research/space/index.qmd
       - text: Publications
         href: publications/index.qmd
       - text: Engineering
