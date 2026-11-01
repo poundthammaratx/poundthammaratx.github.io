@@ -1,54 +1,82 @@
 /*-- scss:defaults --*/
 
-// ---- Colour system ---------------------------------------------------------
-$navy:      #11243C;  // Midnight Navy
-$steel:     #284969;  // Steel Blue
-$gold:      #B18B55;  // Muted Gold (decorative accents only; not body text on white)
-$gold-dark: #85663A;  // Gold darkened to pass WCAG AA on white for small text
-$offwhite:  #F5F6F7;  // Off White
-$white:     #FFFFFF;
-$charcoal:  #222831;  // Charcoal
-$muted:     #55606E;  // Secondary text, AA on white and off-white
-$rule:      #DDE1E6;  // Hairline borders
+// ---- Colour system: "detector console" dark theme --------------------------
+// Near-black background with a Cherenkov-blue accent. All text colours below
+// meet WCAG AA contrast on $bg and $surface.
+$bg:        #050608;   // page background
+$surface:   #0B0E13;   // cards, panels
+$surface-2: #11161D;   // inputs, code, hover
+$line:      #1E2630;   // hairline borders
+$line-2:    #2A3441;   // stronger borders
+$text:      #E6EAF0;   // body text
+$text-2:    #B4BDC9;   // secondary text
+$muted:     #8A96A6;   // meta text
+$accent:    #4CC2FF;   // Cherenkov blue
+$accent-2:  #7CF7D4;   // signal green (positive states)
+$amber:     #F5B53D;   // pending / under review
+$violet:    #B79CFF;   // planned
 
-$body-bg:    $white;
-$body-color: $charcoal;
-$primary:    $steel;
+$body-bg:    $bg;
+$body-color: $text;
+$primary:    $accent;
 $secondary:  $muted;
-$link-color: $steel;
-$link-hover-color: $navy;
+$success:    $accent-2;
+$warning:    $amber;
+$link-color: $accent;
+$link-hover-color: #9BDCFF;
 $link-decoration: none;
 
-$navbar-bg: $navy;
-$navbar-fg: $offwhite;
-$navbar-hl: $white;
-$footer-bg: $navy;
+$navbar-bg: $bg;
+$navbar-fg: $text-2;
+$navbar-hl: $accent;
+$footer-bg: $bg;
+$footer-fg: $muted;
 
-$border-color: $rule;
-$border-radius: 4px;
-$border-radius-lg: 6px;
+$border-color: $line;
+$border-radius: 6px;
+$border-radius-lg: 10px;
+
+$input-bg: $surface-2;
+$input-color: $text;
+$input-border-color: $line-2;
+$dropdown-bg: $surface;
+$dropdown-border-color: $line-2;
+$dropdown-link-color: $text-2;
+$dropdown-link-hover-bg: $surface-2;
+$dropdown-link-hover-color: $accent;
+$table-color: $text;
+$table-border-color: $line;
+$table-striped-bg: $surface;
+$code-color: $accent-2;
+$code-block-bg: $surface;
+$toc-color: $muted;
+$text-muted: $muted;
 
 // ---- Typography ------------------------------------------------------------
 $font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$font-family-serif: "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
-$font-family-monospace: "IBM Plex Mono", SFMono-Regular, Menlo, Consolas, monospace;
-$headings-font-family: $font-family-serif;
+$font-family-monospace: "JetBrains Mono", "IBM Plex Mono", SFMono-Regular, Menlo, Consolas, monospace;
+$headings-font-family: "Space Grotesk", "Inter", system-ui, sans-serif;
 $headings-font-weight: 600;
-$headings-color: $navy;
-$font-size-root: 17px;
-$line-height-base: 1.65;
-$toc-color: $steel;
-$code-color: $steel;
+$headings-color: #F4F7FA;
+$font-size-root: 16.5px;
+$line-height-base: 1.7;
 
 /*-- scss:rules --*/
 
 :root {
-  --tw-navy: #{$navy};
-  --tw-steel: #{$steel};
-  --tw-gold: #{$gold};
-  --tw-gold-dark: #{$gold-dark};
-  --tw-offwhite: #{$offwhite};
-  --tw-charcoal: #{$charcoal};
+  --tw-bg: #{$bg};
+  --tw-surface: #{$surface};
+  --tw-surface-2: #{$surface-2};
+  --tw-line: #{$line};
+  --tw-line-2: #{$line-2};
+  --tw-text: #{$text};
+  --tw-text-2: #{$text-2};
   --tw-muted: #{$muted};
-  --tw-rule: #{$rule};
+  --tw-accent: #{$accent};
+  --tw-accent-2: #{$accent-2};
+  --tw-amber: #{$amber};
+  --tw-violet: #{$violet};
+  --tw-mono: #{$font-family-monospace};
+  --tw-head: #{$headings-font-family};
+  color-scheme: dark;
 }

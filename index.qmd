@@ -62,6 +62,7 @@ listing:
 
 ::: {.hero-text}
 ```{=html}
+<p class="prompt" aria-hidden="true"><span class="p-user">pound@kmitl</span>:<span style="color:var(--tw-accent)">~</span>$ <span class="p-cmd">whoami</span><span class="cursor"></span></p>
 <h1 class="hero-name">Thammarat Yawisit</h1>
 ```
 
