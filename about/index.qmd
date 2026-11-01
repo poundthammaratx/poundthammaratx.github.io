@@ -1,0 +1,125 @@
+---
+title: "About"
+subtitle: "Biography, research interests, education and professional experience"
+description: "Biography, research interests, education and professional experience of Thammarat Yawisit, Engineer at the School of Engineering, KMITL."
+toc: true
+toc-location: right
+toc-title: "On this page"
+listing:
+  - id: education-list
+    contents: ../data/education.yml
+    template: ../_templates/listings/timeline.ejs
+    sort-ui: false
+    filter-ui: false
+    page-size: 100
+  - id: appointments-list
+    contents: ../data/appointments.yml
+    include:
+      group: appointment
+    template: ../_templates/listings/timeline.ejs
+    sort-ui: false
+    filter-ui: false
+    page-size: 100
+  - id: research-exp-list
+    contents: ../data/appointments.yml
+    include:
+      group: research
+    template: ../_templates/listings/timeline.ejs
+    sort-ui: false
+    filter-ui: false
+    page-size: 100
+  - id: other-exp-list
+    contents: ../data/appointments.yml
+    include:
+      group: other
+    template: ../_templates/listings/timeline.ejs
+    sort-ui: false
+    filter-ui: false
+    page-size: 100
+---
+
+## Short biography {#short-bio}
+
+Thammarat Yawisit is an engineer in the Academic Support Division, Office of the Dean, School of Engineering, at King Mongkut's Institute of Technology Ladkrabang (KMITL), Thailand. His research work spans instrumentation, data acquisition and signal processing for experimental physics, including cosmic muon-based testing of IceCube-Gen2 optical modules at the Wisconsin IceCube Particle Astrophysics Center (WIPAC) and liveness-aware trigger methods for neutrino telescopes. He holds a B.Eng. in Mechatronics and Automation Engineering from KMITL (2026).
+
+## Academic biography {#full-bio}
+
+Thammarat Yawisit trained as a mechatronics and automation engineer at KMITL, where his early work focused on control systems, process automation and industrial integration, including an internship on process automation and predictive maintenance at Thai Beverage Public Company Limited.
+
+In 2025 he was selected, by royal decision of Her Royal Highness Princess Maha Chakri Sirindhorn, to take part in the IceCube Summer Student Programme. At WIPAC, University of Wisconsin–Madison, he worked on the design and validation of a cosmic muon-based testing method for IceCube-Gen2 optical modules, under the supervision of Dr. Yuya Makino, Chris Wendt and Albrecht Karle. This work marked his move from industrial automation to scientific instrumentation.
+
+Returning to KMITL as a research assistant, he developed liveness-aware signal processing and trigger methods for neutrino telescopes, the subject of his B.Eng. thesis and of contributions presented at CHEP 2026 and INST 2026. From April to September 2026 he worked as a research engineer at Chulabhorn Royal Academy on a computational framework for radiation-induced DNA double-strand break repair kinetics.
+
+Since October 2026 he has been employed as an Engineer in the Academic Support Division, School of Engineering, KMITL, where his current project is the installation and commissioning of a SpinQ Gemini NMR quantum computer.
+
+## Research interests {#interests}
+
+::: {.chips}
+- Experimental astroparticle physics
+- Neutrino and cosmic-ray detector instrumentation
+- Scientific data acquisition and signal processing
+- Measurement and control systems
+- Optics, photonics and advanced electronics
+- Quantum computing and quantum instrumentation
+- Scientific software and computational methods
+:::
+
+## Research statement {#statement}
+
+Large physics experiments depend on a long measurement chain — sensors, front-end electronics, triggers, data acquisition and analysis — and the reliability of a physics result is limited by the weakest link in that chain. My work focuses on that chain: how to test detector hardware with natural signals such as cosmic-ray muons, how to design trigger logic that stays efficient when some channels are temporarily unavailable, and how to quantify the reliability of a signal when part of the readout is lost.
+
+So far this has meant hardware-based validation work on IceCube-Gen2 optical modules and simulation studies of trigger and coherence methods for multi-PMT modules. The simulation results still need to be tested against real detector conditions, and that is a direction I would like to pursue. More broadly, I am interested in measurement and instrumentation problems where engineering methods (control, signal processing, embedded systems and careful validation) directly affect the quality of scientific data, including in optics, photonics and quantum instrumentation.
+
+## Education and academic training {#education}
+
+:::{#education-list}
+:::
+
+## Professional appointments {#appointments}
+
+:::{#appointments-list}
+:::
+
+## Research experience {#research-experience}
+
+:::{#research-exp-list}
+:::
+
+## International research experience {#international}
+
+- **United States, 2025.** IceCube Summer Student Programme at the Wisconsin IceCube Particle Astrophysics Center (WIPAC), University of Wisconsin–Madison (May–August 2025): design and validation of a cosmic muon-based testing method for IceCube-Gen2 optical modules.
+- **China, 2026.** Selected participant, Sino-Thai International Summer School on High Energy Physics and Astrophysics, Sun Yat-sen University, Guangzhou (July 2026), with registration support from the Thai-JUNO Consortium; invited speaker in the student session.
+
+## Industry experience and fellowships {#other-experience}
+
+:::{#other-exp-list}
+:::
+
+## Technical expertise {#expertise}
+
+| Area | Evidence |
+|---|---|
+| Detector testing and validation | Cosmic muon-based testing of IceCube-Gen2 (LOM-16) optical modules; waveform processing, charge integration, coincidence selection |
+| Trigger and signal-processing methods | Recursive (IIR) liveness-aware trigger observables; multichannel coherence estimation under intermittent observation (simulation) |
+| Measurement, control and automation | B.Eng. in Mechatronics and Automation Engineering; process automation and predictive maintenance (ThaiBev); laboratory TA in electromechanical and process automation labs |
+| Scientific software | Python scientific stack (NumPy, SciPy, Matplotlib, h5py); HDF5 data; SQLite; Streamlit; reproducible research outputs on Zenodo |
+| Data analysis and visualisation | Detector performance figures; Power BI dashboards (Viriyah Insurance internship) |
+| Training exposure | ROOT, Geant4 and GLoBES (Sino-Thai International Summer School 2026) |
+
+
+## Selected milestones {#milestones}
+
+| Year | Milestone |
+|---|---|
+| 2026 | Appointed Engineer, Academic Support Division, School of Engineering, KMITL (effective 1 October 2026) |
+| 2026 | Two oral presentations at CHEP 2026 and one at INST 2026 |
+| 2026 | B.Eng. in Mechatronics and Automation Engineering, KMITL |
+| 2025 | IceCube Summer Student Programme at WIPAC; first Thai engineering student selected for the programme |
+| 2023 | Panasonic Scholarship Asia 2023 fellow |
+
+
+## Professional memberships {#memberships}
+
+- American Physical Society (APS), 2025–present
+- Institute of Electrical and Electronics Engineers (IEEE), 2025–present
+- International Society of Automation (ISA), 2024–present

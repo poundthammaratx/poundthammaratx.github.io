@@ -1,0 +1,56 @@
+---
+title: "Cosmic-Ray Muon Testing Analysis Code"
+subtitle: "Waveform-level analysis pipeline for validating multi-PMT optical modules with atmospheric muons"
+description: "Python analysis pipeline for waveform processing, charge integration, muon coincidence selection and PMT/module characterization of IceCube-Gen2 LOM-16 optical modules."
+categories: [Scientific Software, Electronics and Detector Systems, Scientific Algorithms]
+status: completed
+status-label: "Released"
+period: "2025"
+order: 2
+---
+
+::: {.facts}
+::: {}
+Related research
+:::
+::: {}
+[Cosmic muon-based testing of IceCube-Gen2 optical modules](/research/icecube-gen2-muon-testing/index.qmd)
+:::
+::: {}
+Code
+:::
+::: {}
+[poundthammaratx/Cosmic-Ray-Muon-Based-Testing-Source-Code](https://github.com/poundthammaratx/Cosmic-Ray-Muon-Based-Testing-Source-Code)
+:::
+::: {}
+Technical record
+:::
+::: {}
+[doi:10.5281/zenodo.18614095](https://doi.org/10.5281/zenodo.18614095)
+:::
+:::
+
+## Engineering problem
+
+Validating optical modules with cosmic-ray muons requires turning raw multi-channel PMT waveforms into per-PMT and per-module performance figures, with event selection that separates muon coincidences from single-photon noise.
+
+## Architecture
+
+- `util/` — reusable modules for reading HDF5 data, event histograms and plotting.
+- `tools/` — numbered analysis entry points, from data inspection and quick checks through muon coincidence selection, full muon analysis, PMT characterization and charge-correlation plots.
+
+## Functionality
+
+- Waveform processing and charge integration.
+- Coincidence-based muon event selection.
+- PMT- and module-level performance characterization.
+- Cross-checks of detector stability and response uniformity.
+- Figure generation for validation and reporting.
+
+## Tools and technologies
+
+Python (≥ 3.10), NumPy, SciPy, Matplotlib, h5py; HDF5 input files.
+
+## Data availability and limitations
+
+The repository contains code only. Raw IceCube detector data, internal calibration files and collaboration-restricted resources are excluded, and users must supply their own data in a compatible HDF5 format. The code is not an official IceCube software product.

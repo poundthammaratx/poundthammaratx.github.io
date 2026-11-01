@@ -1,0 +1,46 @@
+---
+title: "Process Automation and Predictive Maintenance for Fermentation Systems"
+subtitle: "Industrial internship project, Thai Beverage Public Company Limited (ThaiBev)"
+description: "Industrial internship project on process automation design and predictive maintenance for fermentation systems at ThaiBev."
+categories: [Embedded and Control Systems, Measurement and Control]
+status: completed
+status-label: "Completed"
+period: "May – Jul 2024"
+order: 4
+---
+
+::: {.facts}
+::: {}
+Role
+:::
+::: {}
+Automation Engineer Intern
+:::
+::: {}
+Organisation
+:::
+::: {}
+Thai Beverage Public Company Limited (ThaiBev)
+:::
+::: {}
+Period
+:::
+::: {}
+May – July 2024
+:::
+::: {}
+Recognition
+:::
+::: {}
+ThaiBev Internship Special Contribution Award (2024)
+:::
+:::
+
+## Summary
+
+Internship project on process automation design and predictive maintenance for ThaiBev fermentation systems. The work was presented internally as *Integrated Industrial Process Automation, Computational Simulation, and Sustainable Energy Management: A Case Study from ThaiBev* (July 2024).
+
+<!--
+OWNER TO ADD (only what is not confidential to ThaiBev): problem statement, control architecture,
+tools (PLC/SCADA/etc.), validation, outcomes.
+-->

@@ -1,0 +1,64 @@
+---
+# Copy this folder to research/<short-slug>/ and fill in. Delete any section
+# you cannot support with a source document. Set draft: true until verified.
+title: "Project title"
+subtitle: "One-line description of the scientific question"
+description: "One or two sentences shown on the project card."
+categories: [Neutrino Telescope Instrumentation]   # use the domain names on research/index.qmd
+status: ongoing            # ongoing | completed | under-review | planned
+status-label: "Ongoing"
+evidence: measurement      # measurement | simulation | proposal | preliminary
+period: "Mon YYYY – present"
+featured: false            # true = show on the home page (max 3)
+order: 10                  # position in the research listing
+# html-math-method: mathjax  # uncomment if the page has equations
+draft: true
+---
+
+::: {.facts}
+::: {}
+Category
+:::
+::: {}
+...
+:::
+::: {}
+Institution
+:::
+::: {}
+...
+:::
+::: {}
+Role
+:::
+::: {}
+Your official role on the project
+:::
+::: {}
+Collaborators
+:::
+::: {}
+Only verified, named institutions
+:::
+::: {}
+Period
+:::
+::: {}
+...
+:::
+:::
+
+## Scientific motivation
+## Objectives
+## Methodology
+## Experimental apparatus or simulation framework
+## Individual role and contributions
+## Key results and limitations
+<!-- State clearly whether results are measured, simulated, proposed or preliminary. -->
+## Figures
+
+![Alt text describing what the figure shows](figure.png){fig-alt="Describe the axes and the main trend."}
+
+## Related publications
+## Code and data
+## References and links

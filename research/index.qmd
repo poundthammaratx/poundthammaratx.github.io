@@ -1,0 +1,40 @@
+---
+title: "Research"
+subtitle: "Instrumentation, data acquisition and measurement methods for experimental physics"
+description: "Research projects in neutrino telescope instrumentation, trigger and data-acquisition methods, signal processing and quantum instrumentation."
+listing:
+  id: research-projects
+  contents: "*/index.qmd"
+  template: ../_templates/listings/cards.ejs
+  sort: "order"
+  fields: [title, description, categories, status, status-label, evidence, period, path]
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  page-size: 50
+---
+
+::: {.section-intro}
+My research sits between experimental physics and engineering: building and validating the measurement chain that turns detector signals into trustworthy physics data. Projects are listed below with their status and evidence type, distinguishing **experimental measurements** from **simulation studies**, and completed from ongoing work.
+:::
+
+## Projects
+
+:::{#research-projects}
+:::
+
+## Research domains
+
+The domains below describe the scope of the work. Each project above is tagged with the domains it contributes to.
+
+| Domain | Current projects |
+|---|---|
+| Experimental Astroparticle Physics | [IceCube-Gen2 optical-module testing](icecube-gen2-muon-testing/index.qmd) |
+| Neutrino Telescope Instrumentation | [IceCube-Gen2 optical-module testing](icecube-gen2-muon-testing/index.qmd); [Liveness-aware triggering](liveness-aware-trigger/index.qmd) |
+| Detector Characterization and Validation | [IceCube-Gen2 optical-module testing](icecube-gen2-muon-testing/index.qmd) |
+| High-Speed Data Acquisition | [Liveness-aware triggering](liveness-aware-trigger/index.qmd) |
+| Measurement Algorithms and Signal Processing | [Liveness-aware triggering](liveness-aware-trigger/index.qmd) |
+| Quantum Measurement and Control | [NMR quantum computer commissioning](nmr-quantum-computer-commissioning/index.qmd) |
+| Optics, Photonics, and Advanced Electronics | No public project yet |
+| Scientific Software and Computational Methods | [DNA repair kinetics framework](dna-repair-kinetics-framework/index.qmd); see also [Engineering & Software](../engineering/index.qmd) |
+

@@ -1,0 +1,21 @@
+# ============================================================================
+# ACADEMIC SERVICE. kind: peer-review | program-committee | evaluation | community | organisation
+# ============================================================================
+
+- title: "Technical Reviewer, Conference Proceedings"
+  org: "28th International Conference on Computing in High Energy and Nuclear Physics (CHEP 2026)"
+  start: "2026"
+  end: ""
+  sortdate: "2026"
+  kind: peer-review
+  details:
+    - "Assessed proceedings manuscripts for Track 2: Online & Real-Time Computing."
+
+- title: "Program Committee Member / Technical Reviewer"
+  org: "IEEE International Conference on Adaptive Intelligence, Modeling and Simulation (ICAIMS 2026)"
+  start: "2026"
+  end: ""
+  sortdate: "2026"
+  kind: program-committee
+  details:
+    - "Reviewed submissions in adaptive intelligence, modelling and simulation."

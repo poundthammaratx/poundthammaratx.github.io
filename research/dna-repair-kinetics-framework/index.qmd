@@ -1,0 +1,56 @@
+---
+title: "Computational Framework for DNA Double-Strand Break Repair Kinetics"
+subtitle: "Development and validation of a computational framework for radiation-induced DNA double-strand break repair kinetics"
+description: "Research engineering project at Chulabhorn Royal Academy on a computational framework for modelling the repair kinetics of radiation-induced DNA double-strand breaks."
+categories: [Scientific Software and Computational Methods]
+status: completed
+status-label: "Appointment completed"
+evidence: simulation
+period: "Apr – Sep 2026"
+featured: false
+order: 4
+---
+
+::: {.facts}
+::: {}
+Category
+:::
+::: {}
+Scientific software and computational methods (radiation biophysics application)
+:::
+::: {}
+Institution
+:::
+::: {}
+Chulabhorn Royal Academy – Princess Srisavangavadhana Faculty of Medicine, Bangkok, Thailand
+:::
+::: {}
+Role
+:::
+::: {}
+Research Engineer
+:::
+::: {}
+Supervision
+:::
+::: {}
+Assoc. Prof. Thiansin Liamsuwan, Ph.D.
+:::
+::: {}
+Period
+:::
+::: {}
+April – September 2026
+:::
+:::
+
+## Project summary
+
+The project concerned the development and validation of a computational framework for the repair kinetics of radiation-induced DNA double-strand breaks.
+
+<!--
+OWNER TO ADD (only once verified and cleared by the supervisor):
+- Model class and validation data used.
+- Your contributions (code, validation, analysis).
+- Any public outputs (reports, code, papers) and their status.
+-->

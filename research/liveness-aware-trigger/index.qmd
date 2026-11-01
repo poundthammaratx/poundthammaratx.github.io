@@ -1,0 +1,91 @@
+---
+title: "Liveness-Aware Triggering for Neutrino Telescopes"
+subtitle: "Signal processing and trigger logic that remain efficient when detector channels are temporarily unavailable"
+description: "Simulation studies of a liveness-aware recursive trigger for multi-PMT optical modules, aimed at reducing efficiency loss from detector deadtime in large neutrino telescopes."
+categories: [High-Speed Data Acquisition, Measurement Algorithms and Signal Processing, Neutrino Telescope Instrumentation]
+status: under-review
+status-label: "Proceedings under review"
+evidence: simulation
+period: "Sep 2025 – 2026"
+featured: true
+order: 2
+---
+
+::: {.facts}
+::: {}
+Category
+:::
+::: {}
+High-speed data acquisition and trigger systems; measurement algorithms and signal processing
+:::
+::: {}
+Institution
+:::
+::: {}
+School of Engineering, King Mongkut's Institute of Technology Ladkrabang (KMITL)
+:::
+::: {}
+Role
+:::
+::: {}
+Research Assistant (Sep 2025 – Mar 2026) and B.Eng. thesis author; first author of the resulting papers
+:::
+::: {}
+Supervision
+:::
+::: {}
+Assoc. Prof. Pittaya Pannil and Assoc. Prof. Amphawan Julsereewong
+:::
+::: {}
+Status
+:::
+::: {}
+[Simulation study]{.badge-tw .status-simulation} · two CHEP 2026 proceedings [under review]{.badge-tw .status-review} · one conference paper [submitted]{.badge-tw .status-submitted}
+:::
+:::
+
+::: {.notice}
+**Evidence type.** The results in this project come from **simulations** of a multi-PMT optical module. They have not yet been demonstrated on deployed detector hardware.
+:::
+
+## Scientific motivation
+
+Large neutrino observatories lose detection efficiency to **deadtime**: periods when a sensor channel cannot record light because of photomultiplier saturation, digitizer limits or front-end readout constraints. Conventional coincidence triggers implicitly assume that every sensor is always available, so their efficiency drops when channels go temporarily offline.
+
+## Objectives
+
+- Formulate a trigger observable that degrades gracefully, instead of collapsing, when channels are not live.
+- Keep the design suitable for low-latency implementation on FPGA-based front-end electronics.
+- Quantify event recovery against conventional coincidence logic under increasing deadtime.
+
+## Methodology
+
+The approach separates two stages:
+
+1. **Continuous measurement construction.** At each sensor node a recursive (IIR) update builds a continuity-preserving observable that decays smoothly during non-live periods.
+2. **Discrete trigger decision.** The trigger acts on these observables rather than on raw hit coincidences, so a temporarily dead channel reduces, but does not erase, its contribution.
+
+A companion study tests geometric scoring of the recursive state across the PMTs of a multi-PMT module, and a related preprint develops time-aligned coherence estimation for multichannel data with intermittent observations.
+
+## Simulation framework
+
+Studies use a simulated multi-PMT optical module for neutrino telescopes with configurable channel deadtime.
+
+<!-- OWNER TO ADD: simulation tool chain (e.g. language, photon/PMT response model, deadtime model) and one figure of trigger efficiency vs deadtime probability, with alt text. -->
+
+## Key results and limitations
+
+In simulation, the liveness-aware trigger recovered more events than conventional coincidence logic when the probability of channel deadtime was high (see the CHEP 2026 contributions and arXiv:2601.18114). Results are limited to simulated detector conditions; hardware validation and comparison against real detector deadtime data remain future work.
+
+## Related publications
+
+See the filtered list on the [Publications](/publications/index.qmd) page. Records linked to this project:
+
+- *Mitigating Deadtime with Liveness-Aware Recursive Triggering in a Simulated Multi-PMT Optical Module for Neutrino Telescopes* — CHEP 2026 oral presentation; proceedings under review. [arXiv:2601.18114](https://arxiv.org/abs/2601.18114)
+- *Testing Geometric Scoring for a Liveness-Aware Recursive Trigger in a Simulated Multi-PMT Optical Module for Neutrino Telescopes* — CHEP 2026 oral presentation; proceedings under review. [arXiv:2601.17043](https://arxiv.org/abs/2601.17043)
+- *Missing Light, Misleading Confidence: Optical-Module Readout Loss and Signal Reliability in Neutrino Telescopes* — submitted to IEEE SAS 2027; decision pending. [arXiv:2610.24003](https://arxiv.org/abs/2610.24003)
+- *Time-Aligned Multichannel Coherence Estimation under Intermittent Observations* — preprint. [arXiv:2512.20678](https://arxiv.org/abs/2512.20678)
+
+## Thesis
+
+B.Eng. thesis (KMITL, 2026): *Design and Implementation of a Liveness-Aware Trigger System for High-Energy Neutrino Detection in Distributed Optical Arrays.*

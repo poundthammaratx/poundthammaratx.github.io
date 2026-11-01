@@ -1,0 +1,77 @@
+<%
+// Publications archive: filter bar + records grouped by year.
+// Data: data/publications.yml. With `template-params: {mode: featured}` it
+// renders a compact list of items with featured: true.
+const tp = (typeof templateParams !== 'undefined' && templateParams) || {};
+const featuredOnly = tp.mode === 'featured';
+const esc = (s) => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const typeNames = { journal: 'Journal article', proceedings: 'Conference proceedings', abstract: 'Conference abstract / presentation', preprint: 'Preprint', report: 'Technical report', other: 'Other scholarly output' };
+const statusClass = { published: 'published', accepted: 'published', 'under-review': 'review', submitted: 'submitted', presented: 'presented', preprint: 'preprint', report: 'report' };
+const bibAuthors = (list) => (list || []).map(a => { const p = a.split(' '); const last = p.pop(); return last + ', ' + p.join(' '); }).join(' and ');
+const bibtex = (it) => {
+  const type = it.type === 'report' ? 'techreport' : 'misc';
+  const f = [];
+  f.push(`  title        = {${it.title}}`);
+  f.push(`  author       = {${bibAuthors(it.authors)}}`);
+  f.push(`  year         = {${it.year}}`);
+  if (type === 'techreport') f.push(`  institution  = {${it.venue}}`); else f.push(`  howpublished = {${it.venue}}`);
+  if (it.arxiv) { f.push(`  eprint       = {${it.arxiv}}`); f.push(`  archivePrefix = {arXiv}`); }
+  if (it.doi) f.push(`  doi          = {${it.doi}}`);
+  if (it.status_label) f.push(`  note         = {${it.status_label}}`);
+  return `@${type}{${it.id},\n${f.join(',\n')}\n}`;
+};
+const getYear = (it) => Number(it.year) || 0;
+let pubs = items.filter(it => !it.hidden && (!featuredOnly || it.featured === true));
+pubs.sort((a, b) => (getYear(b) - getYear(a)) || String(b.sortdate || '').localeCompare(String(a.sortdate || '')));
+const years = [...new Set(pubs.map(getYear))];
+const uniq = (k) => [...new Set(pubs.map(it => it[k]).filter(Boolean))].sort();
+%>
+```{=html}
+<% if (!featuredOnly) { %>
+<div class="filter-bar" data-filter-group="pubs" role="search" aria-label="Filter publications">
+  <label>Year
+    <select data-filter-key="year"><option value="">All years</option><% for (const y of years) { %><option value="<%= y %>"><%= y %></option><% } %></select>
+  </label>
+  <label>Type
+    <select data-filter-key="type"><option value="">All types</option><% for (const t of uniq('type')) { %><option value="<%= t %>"><%= typeNames[t] || t %></option><% } %></select>
+  </label>
+  <label>Status
+    <select data-filter-key="status"><option value="">All statuses</option><% for (const s of uniq('status')) { %><option value="<%= s %>"><%= (pubs.find(p => p.status === s) || {}).status_label || s %></option><% } %></select>
+  </label>
+  <label>Research area
+    <select data-filter-key="area"><option value="">All areas</option><% for (const a of uniq('area')) { %><option value="<%= esc(a) %>"><%= a %></option><% } %></select>
+  </label>
+  <span class="filter-count" aria-live="polite"></span>
+</div>
+<% } %>
+<div class="records-wrap" data-filter-target="pubs">
+<% for (const y of years) { %>
+  <% if (!featuredOnly) { %><h3 class="year-heading" data-year-heading="<%= y %>"><%= y %></h3><% } %>
+  <ul class="records">
+  <% for (const it of pubs.filter(p => getYear(p) === y)) { %>
+    <li class="record" id="<%= it.id %>" data-year="<%= getYear(it) %>" data-type="<%= it.type %>" data-status="<%= it.status %>" data-area="<%= esc(it.area) %>">
+      <p class="r-title"><%= it.title %></p>
+      <p class="r-authors"><% (it.authors || []).forEach((a, i) => { %><%- i ? ', ' : '' %><% if (a === 'T. Yawisit') { %><span class="me"><%= a %></span><% } else { %><%= a %><% } %><% }) %> · <span class="r-year"><%= it.year %></span></p>
+      <p class="r-venue"><%= it.venue %></p>
+      <% if (it.note && !featuredOnly) { %><p class="r-note"><%= it.note %></p><% } %>
+      <div class="r-meta">
+        <span class="badge-tw status-<%= statusClass[it.status] || 'info' %>"><%= it.status_label || it.status %></span>
+        <% if ((it.type_label || typeNames[it.type]) !== it.status_label) { %><span class="badge-tw status-info"><%= it.type_label || typeNames[it.type] %></span><% } %>
+        <% if (it.doi) { %><a href="https://doi.org/<%= it.doi %>" aria-label="DOI for <%= esc(it.title) %>">DOI</a><% } %>
+        <% if (it.arxiv) { %><a href="https://arxiv.org/abs/<%= it.arxiv %>">arXiv:<%= it.arxiv %></a><% } %>
+        <% if (it.pdf) { %><a href="<%= it.pdf %>">PDF</a><% } %>
+        <% if (it.url) { %><a href="<%= it.url %>">Source</a><% } %>
+        <% if (it.code) { %><a href="<%= it.code %>">Code</a><% } %>
+        <% if (it.data) { %><a href="<%= it.data %>">Data</a><% } %>
+        <% if (it.project && !featuredOnly) { %><a href="<%= it.project %>">Project page</a><% } %>
+      </div>
+      <% if (!featuredOnly) { %>
+        <% if (it.abstract) { %><details><summary>Abstract</summary><p><%= it.abstract %></p></details><% } %>
+        <details><summary>BibTeX</summary><pre><code><%= bibtex(it) %></code></pre></details>
+      <% } %>
+    </li>
+  <% } %>
+  </ul>
+<% } %>
+</div>
+```

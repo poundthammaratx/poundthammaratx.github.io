@@ -1,0 +1,53 @@
+---
+title: "Commissioning of an NMR Quantum Computer"
+subtitle: "Installation and commissioning of the SpinQ Gemini nuclear magnetic resonance quantum computer (NMRCQ)"
+description: "Current project at the School of Engineering, KMITL: installation and commissioning of a SpinQ Gemini NMR quantum computer."
+categories: [Quantum Measurement and Control]
+status: ongoing
+status-label: "Ongoing"
+period: "Oct 2026 – present"
+featured: true
+order: 3
+---
+
+::: {.facts}
+::: {}
+Category
+:::
+::: {}
+Quantum measurement and control; quantum instrumentation
+:::
+::: {}
+Institution
+:::
+::: {}
+School of Engineering, King Mongkut's Institute of Technology Ladkrabang (KMITL)
+:::
+::: {}
+Role
+:::
+::: {}
+Engineer, Academic Support Division (official title). Project work: installation and commissioning.
+:::
+::: {}
+Period
+:::
+::: {}
+October 2026 – present · [Ongoing]{.badge-tw .status-ongoing}
+:::
+:::
+
+## Project summary
+
+The project covers the installation and commissioning of a SpinQ Gemini nuclear magnetic resonance (NMR) quantum computer at the School of Engineering, KMITL.
+
+This page will be expanded as the commissioning work produces documented, verifiable results.
+
+<!--
+OWNER TO ADD (only once verified):
+- Scientific motivation and intended use of the system (teaching, research).
+- Commissioning objectives and acceptance tests.
+- Methodology: installation steps, calibration, characterisation measurements.
+- Your individual role versus vendor / colleagues.
+- Results, limitations, related documents.
+-->

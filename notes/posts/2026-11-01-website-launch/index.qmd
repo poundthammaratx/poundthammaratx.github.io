@@ -1,0 +1,12 @@
+---
+title: "Launching this website"
+description: "What this site contains and how records on it are kept accurate."
+date: 2026-11-01
+categories: [Professional Updates]
+---
+
+This website brings together my research, publications, engineering projects and academic activities in one place.
+
+Every record on the site is maintained in a single structured source and states its status explicitly: work that is *under review*, *submitted* or a *preprint* is labelled as such, simulation studies are distinguished from experimental measurements, and appointments are listed with their official titles.
+
+Research notes, engineering notes and conference reflections will be added here over time.

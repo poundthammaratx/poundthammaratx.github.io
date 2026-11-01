@@ -1,0 +1,22 @@
+<%
+// Generic dated record list (appointments, education, teaching, service).
+// Items with hidden: true are never rendered.
+const phaseBadge = { present: ['ongoing', 'Current'], planned: ['planned', 'Planned'] };
+let rows = items.filter(it => !it.hidden);
+rows.sort((a, b) => String(b.sortdate || '').localeCompare(String(a.sortdate || '')));
+const span = (it) => [it.start, it.end].filter(Boolean).join(' – ');
+%>
+```{=html}
+<ul class="records timeline">
+<% for (const it of rows) { %>
+  <li class="record">
+    <div class="t-date"><%= span(it) %></div>
+    <div>
+      <p class="r-title"><%= it.title %> <% if (phaseBadge[it.phase]) { %><span class="badge-tw status-<%= phaseBadge[it.phase][0] %>"><%= phaseBadge[it.phase][1] %></span><% } %><% if (it.international) { %> <span class="badge-tw status-info">International</span><% } %></p>
+      <p class="t-org"><%= it.org %></p>
+      <% if (it.details && it.details.length) { %><ul><% for (const d of it.details) { %><li><%= d %></li><% } %></ul><% } %>
+    </div>
+  </li>
+<% } %>
+</ul>
+```

@@ -1,0 +1,28 @@
+<%
+const cats = [
+  ['scholarship', 'Scholarships'],
+  ['fellowship', 'Research fellowships'],
+  ['grant', 'Research grants'],
+  ['support', 'Student and research support'],
+  ['award', 'Academic and professional awards'],
+  ['institutional', 'Institutional recognition'],
+];
+const statusMap = { awarded: ['awarded', 'Awarded'], received: ['awarded', 'Received'], approved: ['awarded', 'Approved'], allocated: ['awarded', 'Allocated'], pending: ['pending', 'Application pending'], nominated: ['pending', 'Nominated · decision pending'] };
+const rows = items.filter(it => !it.hidden);
+%>
+```{=html}
+<% for (const [key, label] of cats) { const group = rows.filter(r => r.category === key).sort((a, b) => b.year - a.year); if (!group.length) continue; %>
+<h3 id="rec-<%= key %>"><%= label %></h3>
+<ul class="records timeline">
+<% for (const it of group) { const st = statusMap[it.status] || ['info', it.status]; %>
+  <li class="record">
+    <div class="t-date"><%= it.year %></div>
+    <div>
+      <p class="r-title"><%= it.title %> <span class="badge-tw status-<%= st[0] %>"><%= st[1] %></span></p>
+      <% if (it.details) { %><p class="t-org"><%= it.details %></p><% } %>
+    </div>
+  </li>
+<% } %>
+</ul>
+<% } %>
+```
