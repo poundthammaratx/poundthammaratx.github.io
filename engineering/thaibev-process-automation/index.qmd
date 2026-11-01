@@ -40,7 +40,13 @@ ThaiBev Internship Special Contribution Award (2024)
 
 Internship project on process automation design and predictive maintenance for ThaiBev fermentation systems. The work was presented internally as *Integrated Industrial Process Automation, Computational Simulation, and Sustainable Energy Management: A Case Study from ThaiBev* (July 2024).
 
-<!--
-OWNER TO ADD (only what is not confidential to ThaiBev): problem statement, control architecture,
-tools (PLC/SCADA/etc.), validation, outcomes.
--->
+## Scope of work
+
+- Variable-speed-drive (VSD) control for agitator motors in fermentation.
+- Cooling-system automation for fermentation, with PLC–SCADA integration for real-time monitoring and control.
+- Electrical system design and energy-management support, including stability analysis of a hybrid solar–gas engine power plant.
+- Calibration of pressure and temperature instruments (including RTD PT100 sensors) with precision reference instruments, following ISO/IEC 17025 practice.
+- CFD and biogas-mixing simulations of fermentation-tank airflow and temperature distribution.
+- A recurrent neural network (RNN) model for predictive maintenance trained on one year of SCADA data.
+
+The detailed internal report is confidential to ThaiBev.

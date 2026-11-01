@@ -1,6 +1,6 @@
 ---
 title: "Academic Activities"
-subtitle: "Talks and presentations, teaching and mentoring, and academic service"
+subtitle: "Talks and presentations, teaching and mentoring, academic service, and student leadership"
 description: "Talks and presentations, laboratory teaching and mentoring, and academic service including conference peer review."
 listing:
   - id: talks-list
@@ -11,6 +11,18 @@ listing:
     page-size: 500
   - id: teaching-list
     contents: ../data/teaching.yml
+    template: ../_templates/listings/timeline.ejs
+    sort-ui: false
+    filter-ui: false
+    page-size: 500
+  - id: leadership-list
+    contents: ../data/leadership.yml
+    template: ../_templates/listings/timeline.ejs
+    sort-ui: false
+    filter-ui: false
+    page-size: 500
+  - id: competitions-list
+    contents: ../data/competitions.yml
     template: ../_templates/listings/timeline.ejs
     sort-ui: false
     filter-ui: false
@@ -44,4 +56,16 @@ These are laboratory teaching-assistant and student-mentoring roles held as a st
 ## Academic Service {#service}
 
 :::{#service-list}
+:::
+
+## Student Leadership {#leadership}
+
+:::{#leadership-list}
+:::
+
+## Competitions & Programmes {#competitions}
+
+Industry and engineering competitions and programmes taken part in as an undergraduate. These are listed as participation unless a result is stated.
+
+:::{#competitions-list}
 :::

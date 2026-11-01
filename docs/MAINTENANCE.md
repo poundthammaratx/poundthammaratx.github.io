@@ -12,6 +12,9 @@ Every academic record lives in **one** place. Edit the source, commit, and the s
 | Appointments, research positions, internships | `data/appointments.yml` | About, CV |
 | Degrees and training | `data/education.yml` | About, CV |
 | Scholarships, awards | `data/recognition.yml` | Recognition |
+| News and media coverage | `data/news.yml` | News, Home (3 most recent) |
+| Student leadership | `data/leadership.yml` | Activities |
+| Competitions and programmes | `data/competitions.yml` | Activities |
 | CV PDF | replace `assets/cv/CV_Thammarat_Yawisit.pdf` (keep the file name) and update `cv.updated` in `_variables.yml` | Home, CV |
 
 ## Adding a publication

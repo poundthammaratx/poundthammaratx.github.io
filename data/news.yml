@@ -1,0 +1,68 @@
+# ============================================================================
+# NEWS — media coverage and announcements. One record per item.
+# kind   : media (third-party coverage) | announcement (own milestone)
+# Only add media items you have opened and read; summarise what the source says,
+# never more. Keep the original-language headline in title_original.
+# ============================================================================
+
+- title: "Nominated for a Government Science and Technology Scholarship"
+  kind: announcement
+  sortdate: "2026-10-22"
+  date_label: "22 Oct 2026"
+  summary: "The School of Engineering, KMITL, nominated Thammarat as its designated personnel candidate in a request for one Government Science and Technology Scholarship (Public Sector Personnel Development), targeted at semiconductors and advanced electronics with an emphasis on optics and photonics. The planned course of study is the M.Sc. in Optics and Photonics at the Karlsruhe Institute of Technology (KIT), Germany, from the Winter Semester 2027/28. The allocation has not yet been decided."
+  link: "/recognition/index.qmd"
+  link_label: "Recognition"
+
+- title: "Thai PBS: Thai students on the world research stage, developing neutrino detection technology"
+  title_original: "นักศึกษาไทยเจ๋ง! บุกเวทีวิจัยโลก ร่วมพัฒนาเทคโนโลยีตรวจจับนิวทริโน เชื่อมโยงความสำเร็จ Nobel Prize in Physics 2026"
+  kind: media
+  outlet: "Thai PBS Sci & Tech (Thai Genius)"
+  sortdate: "2026-10-13"
+  date_label: "13 Oct 2026"
+  summary: "Thai PBS profiled Thammarat's selection as Thailand's representative in the IceCube Summer Student Program 2025, supported through the Information Technology Foundation under the Initiative of HRH Princess Maha Chakri Sirindhorn. The article describes his June–July 2025 research at WIPAC with the LOM research and development team: optical-module assembly and integration, a software workflow, and analysis of cosmic-ray muon data from six LOM-16 modules (96 PMTs), presented at the WIPAC Group Meeting on 28 July 2025. It places the work in the context of high-energy neutrino detection recognised by the 2026 Nobel Prize in Physics."
+  url: "https://www.thaipbs.or.th/sciandtech/thai-genius/icecube-neutrino-observatory"
+  language: "Thai"
+
+- title: "KMITL School of Engineering profiles its IceCube representative"
+  title_original: "เปิดโปรไฟล์ นายธรรมรัตน์ ยาวิศิษฏ์ นักศึกษาวิศวลาดกระบัง ผู้แทนไทยร่วมทีมวิจัย"
+  kind: media
+  outlet: "KMITL School of Engineering (Facebook)"
+  sortdate: "2026-10"
+  date_label: "Oct 2026"
+  summary: "Faculty post introducing Thammarat as a KMITL engineering student who represented Thailand on the IceCube research team, and his work on neutrino detection technology."
+  url: "https://www.facebook.com/engineering.kmitl/posts/122270533676113552/"
+  language: "Thai"
+
+- title: "Appointed Engineer, School of Engineering, KMITL"
+  kind: announcement
+  sortdate: "2026-10-01"
+  date_label: "1 Oct 2026"
+  summary: "Appointed Engineer in the Academic Support Division, School of Engineering, KMITL (Order No. 1151/2569), with current project work on the installation and commissioning of a SpinQ Gemini NMR quantum computer."
+  link: "/about/index.qmd#appointments"
+  link_label: "Appointments"
+
+- title: "Invited student-session talk at the Sino-Thai International Summer School on HEP and Astrophysics"
+  kind: announcement
+  sortdate: "2026-07"
+  date_label: "Jul 2026"
+  summary: "Selected participant, with Thai-JUNO Consortium registration support, in the three-week summer school at Sun Yat-sen University, Guangzhou, China, and invited speaker in its student session on optical-module validation for IceCube-Gen2."
+  link: "/activities/index.qmd#talks"
+  link_label: "Talks"
+
+- title: "Two oral presentations at CHEP 2026"
+  kind: announcement
+  sortdate: "2026-05-28"
+  date_label: "28 May 2026"
+  summary: "Presented two contributions on liveness-aware triggering for multi-PMT optical modules in Track 2 (Online & Real-Time Computing) of the 28th International Conference on Computing in High Energy and Nuclear Physics in Bangkok. The proceedings are under review."
+  link: "/publications/index.qmd"
+  link_label: "Publications"
+
+- title: "KMITL engineering students received in audience before departing for international summer programmes"
+  title_original: "นศ.วิศวลาดกระบัง ภาคฤดูร้อน เข้าเฝ้าฯ กรมสมเด็จพระเทพฯ"
+  kind: media
+  outlet: "KMITL School of Engineering"
+  sortdate: "2025-05-27"
+  date_label: "27 May 2025"
+  summary: "On 13 May 2025, HRH Princess Maha Chakri Sirindhorn granted an audience to the Information Technology Foundation and the 2025 summer-programme participants (CERN, DESY, GSI, IceCube and ITER) before their departure. The faculty news names Thammarat, then a third-year Mechatronics and Automation Engineering student, as Thailand's selected representative for the IceCube programme at WIPAC and the first engineering student from Thailand selected for it."
+  url: "https://www.eng.kmitl.ac.th/20335/"
+  language: "Thai"

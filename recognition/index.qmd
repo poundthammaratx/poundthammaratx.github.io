@@ -12,7 +12,7 @@ listing:
 ---
 
 ::: {.notice}
-Every item below was **personally received**. Funding is described as it was granted (for example, a registration waiver is listed as a waiver, not as a grant). Pending applications or nominations are labelled as such, and recognition held by an institution, group or supervisor is not listed.
+Every item below was **personally received**, except the scholarship nomination, which is labelled as pending. Funding is described as it was granted (for example, a registration waiver is listed as a waiver, not as a grant). Pending applications or nominations are labelled as such, and recognition held by an institution, group or supervisor is not listed.
 :::
 
 :::{#recognition-list}

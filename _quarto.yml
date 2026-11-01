@@ -54,8 +54,12 @@ website:
             href: activities/index.qmd#teaching
           - text: Academic Service
             href: activities/index.qmd#service
+          - text: Student Leadership
+            href: activities/index.qmd#leadership
       - text: Recognition
         href: recognition/index.qmd
+      - text: News
+        href: news/index.qmd
       - text: Notes
         href: notes/index.qmd
       - text: CV

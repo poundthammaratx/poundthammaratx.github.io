@@ -62,6 +62,12 @@
   year: 2025
   details: "Selected to represent Thailand; first Thai engineering student selected for the programme."
 
+- title: "KMITL Academic Distinction"
+  category: institutional
+  status: received
+  year: 2025
+  details: "Ranked first in Mechatronics and Automation Engineering in Semester 1, Academic Year 2025 (GPS 4.00); first student in the department to take the Overseas Training course, graded A."
+
 - title: "KMITL Honor Institutional Prestige Award"
   category: institutional
   status: received
@@ -86,10 +92,9 @@
   year: 2023
   details: ""
 
-# --- Hidden until the owner approves public disclosure ----------------------
+# --- Nomination: approved for public display by the owner on 1 Nov 2026 ----
 - title: "Government Science and Technology Scholarship (Public Sector Personnel Development) — nomination"
   category: scholarship
   status: nominated
   year: 2026
-  hidden: true
-  details: "Nominated by the School of Engineering, KMITL, as its designated candidate in a request for allocation (memorandum dated 22 October 2026). Allocation not yet decided."
+  details: "Nominated by the School of Engineering, KMITL, as its designated personnel candidate in a request for the allocation of one scholarship targeted at semiconductors and advanced electronics, with an emphasis on optics and photonics (memorandum of 22 October 2026). The allocation has not yet been decided."

@@ -61,7 +61,8 @@
   international: true
   details:
     - "Project: Design and Validation of a Cosmic Muon-Based Testing Method for IceCube-Gen2 Optical Modules."
-    - "Supervisors: Dr. Yuya Makino, Chris Wendt, and Albrecht Karle."
+    - "LOM team, Detector and Calibration Group. Supervisors: Dr. Yuya Makino and Christopher Wendt; host: Albrecht Karle."
+    - "Analysed cosmic-ray muon data from the first six LOM-16 optical modules (96 PMTs) and contributed to LOM-16 construction, including LOM-16-09."
   verified_by: "CV"
 
 - title: "Fellow, Panasonic Scholarship Asia 2023"
@@ -74,6 +75,7 @@
   group: other
   international: false
   details:
+    - "Selected as one of ten scholars nationwide (one of two from KMITL); full sponsorship until graduation, leadership and founder's-philosophy training, and CSR ambassador duties."
     - "Supervisor: Thammarong Ondeesawat."
   verified_by: "CV"
 
@@ -88,6 +90,7 @@
   international: false
   details:
     - "Project: Process Automation Design and Predictive Maintenance for ThaiBev Fermentation Systems."
+    - "Work included VSD agitator control, PLC–SCADA cooling-system automation, instrument calibration under ISO/IEC 17025, CFD and biogas-mixing simulation, and RNN-based predictive maintenance."
   verified_by: "CV"
 
 - title: "Data Analyst Intern"
@@ -101,4 +104,5 @@
   international: false
   details:
     - "Project: Insurance Claim System Visualization using Power BI."
+    - "Validated and visualised claim and policy datasets with Excel, Power BI and SQL."
   verified_by: "CV"

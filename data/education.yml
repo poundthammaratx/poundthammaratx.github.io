@@ -37,7 +37,28 @@
     - "Selected participant in a three-week programme covering high-energy and astroparticle physics, neutrino physics, particle detection, scientific computing and data analysis."
     - "Topics included ROOT, Geant4, GLoBES and cosmic-ray muon detection, with exposure to JUNO, LHAASO, CSNS, HIAF and CiADS research directions."
 
-# --- Planned (hidden until the owner approves public disclosure) -----------
+- title: "Pre-Air Cadet Student, Royal Thai Air Force Section"
+  org: "Armed Forces Academies Preparatory School, Nakhon Nayok, Thailand"
+  start: "Jan 2022"
+  end: "May 2022"
+  sortdate: "2022-01"
+  phase: past
+  kind: training
+  details:
+    - "Admitted through the Royal Thai Air Force National “Chang Phueak” programme; ranked 13th of 1,242 applicants."
+    - "Left the military-academy track in 2022 to study engineering at KMITL."
+
+- title: "Pre-Medical Program in Science and Mathematics (secondary school)"
+  org: "Rajsima Witthayalai School, Nakhon Ratchasima, Thailand"
+  start: "2016"
+  end: "2022"
+  sortdate: "2016"
+  phase: past
+  kind: school
+  details:
+    - "GPA 3.85 / 4.00."
+
+# --- Planned: approved for public display by the owner on 1 Nov 2026 -------
 - title: "M.Sc. in Optics and Photonics (planned)"
   org: "Karlsruhe Institute of Technology (KIT), Germany"
   start: "Oct 2027"
@@ -45,6 +66,7 @@
   sortdate: "2027-10"
   phase: planned
   kind: degree
-  hidden: true
   details:
-    - "Planned start Winter Semester 2027/28, subject to admission procedures and funding."
+    - "Planned start in the Winter Semester 2027/28, subject to the university's entry procedures and to funding."
+    - "Previously admitted to the programme for the Winter Semester 2026/27; entry deferred to 2027."
+    - "Part of the KMITL School of Engineering personnel development plan (master's study followed by doctoral study)."
