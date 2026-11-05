@@ -46,9 +46,7 @@ Talks are classified by how they came about: *invited talks* are presentations g
 
 ## Teaching & Mentoring {#teaching}
 
-::: {.notice}
-These are laboratory teaching-assistant and student-mentoring roles held as a student. They are not faculty teaching appointments.
-:::
+Current courses, with codes and schedules, are on the [Teaching](../teaching/index.qmd) page. The roles below were held as a student.
 
 :::{#teaching-list}
 :::

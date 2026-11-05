@@ -7,7 +7,8 @@ Every academic record lives in **one** place. Edit the source, commit, and the s
 | Name, official title, unit, e-mail, profile URLs | `_variables.yml` (and the hero text in `index.qmd`) | Home, CV |
 | Publications | `data/publications.yml` | Publications (all), Home (`featured: true`) |
 | Talks | `data/talks.yml` | Activities, Home (4 most recent non-outreach) |
-| Teaching, mentoring | `data/teaching.yml` | Activities |
+| Courses taught (per term) | `data/courses.yml` | Teaching, Home |
+| Earlier teaching, mentoring | `data/teaching.yml` | Teaching, Activities |
 | Peer review, committees | `data/service.yml` | Activities |
 | Appointments, research positions, internships | `data/appointments.yml` | About, CV |
 | Degrees and training | `data/education.yml` | About, CV |

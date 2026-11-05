@@ -13,6 +13,9 @@ position:
   institution_short: "KMITL"
   city: "Bangkok, Thailand"
   since: "October 2026"
+  # Display title chosen by the owner (5 Nov 2026). The official appointment
+  # title stays "Engineer" (above); teaching is per the Semester 2/2026 timetable.
+  display_title: "Engineer, Instructor & Junior Faculty"
   # Functional description of the research work (not an official title).
   functional: "Research engineer in experimental physics instrumentation and measurement technologies"
 

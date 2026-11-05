@@ -1,0 +1,42 @@
+<%
+// Courses taught, grouped by term (newest first).
+// template-params.mode: "full" (default) or "compact" (home page).
+const mode = ((typeof templateParams !== 'undefined' && templateParams) || {}).mode || 'full';
+let rows = items.filter(it => !it.hidden);
+rows.sort((a, b) => String(b.sortdate || '').localeCompare(String(a.sortdate || '')));
+const terms = [];
+for (const it of rows) { let t = terms.find(x => x.term === it.term); if (!t) { t = { term: it.term, term_long: it.term_long, items: [] }; terms.push(t); } t.items.push(it); }
+%>
+```{=html}
+<% for (const t of terms) { %>
+<% if (mode === 'compact') { %>
+<p class="course-term-compact"><%= t.term %> <span><%= t.term_long %></span></p>
+<ul class="records course-compact">
+<% for (const it of t.items) { %>
+  <li class="record"><span class="c-code"><%= it.code %></span> <span class="r-title"><%= it.title %></span> <span class="c-meta"><%= it.role %> · <%= it.meetings.map(m => m.day.slice(0,3)).filter((d,i,a)=>a.indexOf(d)===i).join(', ') %></span></li>
+<% } %>
+</ul>
+<% } else { %>
+<h3 class="course-term"><%= t.term %> <span><%= t.term_long %></span></h3>
+<div class="courses">
+<% for (const it of t.items) { %>
+  <article class="course">
+    <p class="c-code"><%= it.code %> · Section <%= it.section %> · <%= it.credits %> credits</p>
+    <h4 class="c-title"><%= it.title %></h4>
+    <p class="c-prog"><%= it.programme %> · <%= it.format %></p>
+    <table class="c-sched">
+      <tbody>
+      <% for (const m of it.meetings) { %><tr><td><%= m.day %></td><td><%= m.time %></td><td><%= m.kind %></td><td><%= m.room %></td></tr><% } %>
+      </tbody>
+    </table>
+    <dl class="c-facts">
+      <div><dt>Role</dt><dd><%= it.role %> · <%= it.team %></dd></div>
+      <div><dt>Midterm</dt><dd><%= it.midterm %></dd></div>
+      <div><dt>Final</dt><dd><%= it.final %></dd></div>
+    </dl>
+  </article>
+<% } %>
+</div>
+<% } %>
+<% } %>
+```

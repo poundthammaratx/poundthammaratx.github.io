@@ -46,6 +46,8 @@ website:
             href: research/space/index.qmd
       - text: Publications
         href: publications/index.qmd
+      - text: Teaching
+        href: teaching/index.qmd
       - text: Engineering
         href: engineering/index.qmd
       - text: Activities
@@ -54,8 +56,8 @@ website:
             href: activities/index.qmd
           - text: Talks & Presentations
             href: activities/index.qmd#talks
-          - text: Teaching & Mentoring
-            href: activities/index.qmd#teaching
+          - text: Teaching
+            href: teaching/index.qmd
           - text: Academic Service
             href: activities/index.qmd#service
           - text: Student Leadership

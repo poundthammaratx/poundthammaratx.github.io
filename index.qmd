@@ -25,6 +25,14 @@ listing:
     sort-ui: false
     filter-ui: false
     page-size: 500
+  - id: current-teaching
+    contents: data/courses.yml
+    template: _templates/listings/courses.ejs
+    template-params:
+      mode: compact
+    sort-ui: false
+    filter-ui: false
+    page-size: 500
   - id: featured-engineering
     contents: "engineering/*/index.qmd"
     template: _templates/listings/cards.ejs
@@ -68,7 +76,7 @@ listing:
 ```
 
 ::: {.designation}
-{{< var position.official >}}, {{< var position.unit >}}
+{{< var position.display_title >}}<br>{{< var position.unit >}}
 :::
 
 ::: {.affiliation}
@@ -105,7 +113,7 @@ I work on the measurement chain of experimental physics: testing detector hardwa
 ::: {}
 ### Who
 
-Engineer in the Academic Support Division, School of Engineering, KMITL (since October 2026). B.Eng. in Mechatronics and Automation Engineering, KMITL. Research experience at WIPAC (IceCube), KMITL and Chulabhorn Royal Academy. [More about me →](about/index.qmd)
+Engineer, instructor and junior faculty member at the School of Engineering, KMITL (since October 2026), teaching three Automation Engineering courses in Term 2/2026. B.Eng. in Mechatronics and Automation Engineering, KMITL. Research experience at WIPAC (IceCube), KMITL and Chulabhorn Royal Academy. [More about me →](about/index.qmd)
 :::
 
 ::: {}
@@ -124,7 +132,7 @@ Engineer in the Academic Support Division, School of Engineering, KMITL (since O
 - Open analysis code and an open-data system on GitHub.
 - Talks at CHEP 2026, INST 2026 and IceCube collaboration meetings.
 
-[Publications →](publications/index.qmd) · [Activities →](activities/index.qmd)
+[Publications →](publications/index.qmd) · [Teaching →](teaching/index.qmd)
 :::
 :::
 
@@ -154,6 +162,13 @@ Engineer in the Academic Support Division, School of Engineering, KMITL (since O
 :::
 
 [Full publication list with filters and BibTeX →](publications/index.qmd)
+
+## Teaching
+
+:::{#current-teaching}
+:::
+
+[Course details, schedules and earlier teaching →](teaching/index.qmd)
 
 ## Engineering & software
 

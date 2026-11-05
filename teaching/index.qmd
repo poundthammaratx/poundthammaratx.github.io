@@ -1,0 +1,40 @@
+---
+title: "Teaching"
+subtitle: "Courses taught at the School of Engineering, KMITL, and earlier teaching and mentoring"
+description: "Courses taught by Thammarat Yawisit in the B.Eng. Automation Engineering programme at KMITL, with course codes, schedules and examination arrangements."
+listing:
+  - id: courses-list
+    contents: ../data/courses.yml
+    template: ../_templates/listings/courses.ejs
+    template-params:
+      mode: full
+    sort-ui: false
+    filter-ui: false
+    page-size: 500
+  - id: earlier-teaching
+    contents: ../data/teaching.yml
+    template: ../_templates/listings/timeline.ejs
+    sort-ui: false
+    filter-ui: false
+    page-size: 500
+---
+
+::: {.section-intro}
+I teach in the B.Eng. Automation Engineering programme at the School of Engineering, KMITL, as an instructor in the laboratory and documentation courses below, each taught by a team of instructors.
+:::
+
+## Current courses {#current}
+
+:::{#courses-list}
+:::
+
+::: {.notice}
+Source: School of Engineering, KMITL, Automation Engineering class and examination timetable, Semester 2, Academic Year 2026 (B.E. 2569). Examination dates for these courses are arranged by the instructors and will be announced in class. Times are local (UTC+7).
+:::
+
+## Earlier teaching & mentoring {#earlier}
+
+These roles were held as a student and are not teaching appointments.
+
+:::{#earlier-teaching}
+:::

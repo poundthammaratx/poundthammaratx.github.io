@@ -1,6 +1,6 @@
 # ============================================================================
-# TEACHING & MENTORING. These are student/assistant roles, not faculty
-# teaching appointments. kind: lab-instruction | mentoring | supervision | training
+# EARLIER TEACHING & MENTORING (student/assistant roles). Courses taught
+# as staff go in data/courses.yml. kind: lab-instruction | mentoring | supervision | training
 # ============================================================================
 
 - title: "Laboratory Teaching Assistant — Electromechanical Laboratory"

@@ -160,3 +160,24 @@ nav#TOC .nav-link.active { color: var(--tw-accent); border-left-color: var(--tw-
 .navbar a, .navbar li a, .nav-footer a, .dropdown-item, .sidebar a, nav#TOC a { text-decoration: none !important; }
 .qa-grid > div { border-color: var(--tw-line-2); }
 @media (max-width: 767.98px) { main table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; } }
+
+/* ---- Teaching ------------------------------------------------------------- */
+.course-term { font-size: 1.2rem; margin: 2rem 0 .25rem; }
+.course-term span, .course-term-compact span { display: block; font-family: inherit; font-size: .85rem; color: var(--tw-muted); font-weight: 400; margin-top: .15rem; }
+.courses { display: grid; gap: 1rem; margin: 1rem 0 1.5rem; }
+.course { border: 1px solid var(--tw-line); border-radius: 10px; padding: 1.2rem 1.3rem; }
+.course .c-code { font-family: var(--tw-mono); font-size: .78rem; color: var(--tw-muted); margin: 0 0 .3rem; }
+.course .c-title { font-size: 1.2rem; margin: 0 0 .2rem; font-weight: 500; }
+.course .c-prog { color: var(--tw-text-2); font-size: .92rem; margin: 0 0 .8rem; }
+.course .c-sched { width: 100%; font-size: .9rem; border-collapse: collapse; margin: 0 0 .8rem; }
+.course .c-sched td { padding: .4rem .6rem .4rem 0; border-top: 1px solid var(--tw-line); color: var(--tw-text); }
+.course .c-sched td:nth-child(n+3) { color: var(--tw-text-2); }
+.course .c-facts { display: grid; grid-template-columns: repeat(3, auto); gap: .3rem 1.5rem; margin: 0; font-size: .86rem; justify-content: start; }
+.course .c-facts dt { font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: var(--tw-muted); font-weight: 500; }
+.course .c-facts dd { margin: 0; color: var(--tw-text-2); }
+@media (max-width: 575.98px) { .course .c-facts { grid-template-columns: 1fr; } main .course .c-sched { display: table; } }
+.course-term-compact { font-family: var(--tw-head); font-size: 1.1rem; color: var(--tw-text); margin: 1rem 0 .25rem; }
+.course-compact .record { padding: .7rem 0; display: flex; flex-wrap: wrap; gap: .2rem .8rem; align-items: baseline; }
+.course-compact .c-code { font-family: var(--tw-mono); font-size: .8rem; color: var(--tw-muted); }
+.course-compact .r-title { margin: 0; font-size: 1.02rem; }
+.course-compact .c-meta { font-size: .85rem; color: var(--tw-muted); }
