@@ -18,12 +18,12 @@
   authors: ["T. Yawisit", "P. Pannil"]
   sortdate: "2026-11-03"
   year: 2026
-  type: preprint
-  type_label: "Preprint"
-  status: preprint
-  status_label: "Preprint · not peer reviewed"
-  venue: "arXiv preprint (physics.ins-det; cross-listed in physics.optics)"
-  note: "12 pages, 8 figures, 6 tables. Extended version of a two-page paper submitted to the 2027 IEEE Silicon Photonics Conference (decision pending). Submitted 31 October 2026; announced 3 November 2026. All results are simulations."
+  type: proceedings
+  type_label: "Conference paper (submitted)"
+  status: submitted
+  status_label: "Submitted · under review"
+  venue: "Submitted to the 2027 IEEE Silicon Photonics Conference"
+  note: "Two-page conference paper under review; not yet accepted. The extended version (12 pages, 8 figures, 6 tables) is available as an arXiv preprint (physics.ins-det; cross-listed in physics.optics), posted 3 November 2026. All results are simulations."
   arxiv: "2611.01111"
   doi: "10.48550/arXiv.2611.01111"
   area: "Optics, Photonics and Single-Photon Detection"
