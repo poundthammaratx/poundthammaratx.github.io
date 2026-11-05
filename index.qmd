@@ -64,7 +64,6 @@ listing:
 
 ::: {.hero-text}
 ```{=html}
-<p class="prompt" aria-hidden="true"><span class="p-user">pound@kmitl</span>:<span style="color:var(--tw-accent)">~</span>$ <span class="p-cmd">whoami</span><span class="cursor"></span></p>
 <h1 class="hero-name">Thammarat Yawisit</h1>
 ```
 
@@ -91,6 +90,16 @@ I work on the measurement chain of experimental physics: testing detector hardwa
 :::
 :::
 :::
+
+```{=html}
+<section class="affil" aria-label="Affiliation">
+  <p class="affil-label">Affiliation</p>
+  <div class="affil-logos">
+    <a href="https://www.kmitl.ac.th/" title="King Mongkut's Institute of Technology Ladkrabang"><img src="assets/img/logos/kmitl.png" alt="King Mongkut's Institute of Technology Ladkrabang (KMITL)" width="588" height="288" loading="lazy"></a>
+    <a href="https://www.eng.kmitl.ac.th/" title="School of Engineering, KMITL"><img src="assets/img/logos/kmitl-engineering.png" alt="School of Engineering, KMITL" width="464" height="532" loading="lazy"></a>
+  </div>
+</section>
+```
 
 ::: {.qa-grid}
 ::: {}
