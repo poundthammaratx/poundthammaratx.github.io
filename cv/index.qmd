@@ -29,7 +29,7 @@ listing:
 
 ## Summary
 
-Engineer in the Academic Support Division, Office of the Dean, School of Engineering, KMITL, with research experience in neutrino-telescope instrumentation (IceCube-Gen2 optical-module testing at WIPAC), trigger and signal-processing methods for detectors with intermittent channel availability, scientific computing and open research software. B.Eng. in Mechatronics and Automation Engineering, KMITL (2026).
+Engineer, instructor and junior faculty member at the School of Engineering, KMITL (appointed Engineer, Academic Support Division, Office of the Dean), teaching three Automation Engineering courses in Semester 2/2026, with research experience in neutrino-telescope instrumentation (IceCube-Gen2 optical-module testing at WIPAC), trigger and signal-processing methods for detectors with intermittent channel availability, scientific computing and open research software. B.Eng. in Mechatronics and Automation Engineering, KMITL (2026).
 
 ## Research expertise
 

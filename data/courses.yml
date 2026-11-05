@@ -1,0 +1,60 @@
+# ============================================================================
+# COURSES TAUGHT — one record per course per term. Rendered by
+# teaching/index.qmd (full) and the home page (compact).
+# Source: KMITL School of Engineering, Automation Engineering class & examination
+# timetable, Semester 2, Academic Year 2026 (B.E. 2569), English edition.
+# Only list courses where the timetable names the owner as an instructor.
+# role: as named in the timetable (each course has a team of instructors;
+#       "team" records its size).
+# ============================================================================
+
+- term: "Term 2/2026"
+  term_long: "Semester 2, Academic Year 2026 (B.E. 2569)"
+  sortdate: "2026-11"
+  code: "01256225"
+  title: "Automation Engineering Documentation"
+  programme: "B.Eng. Automation Engineering, Year 2"
+  section: "1"
+  credits: "3 (2-3-4)"
+  format: "Lecture and practical"
+  meetings:
+    - { day: "Monday", time: "13:00–15:00", kind: "Lecture", room: "Room O" }
+    - { day: "Wednesday", time: "17:00–20:00", kind: "Practical", room: "Room O" }
+  midterm: "Arranged by instructor"
+  final: "Arranged by instructor"
+  role: "Instructor"
+  team: "Teaching team of 8 instructors"
+
+- term: "Term 2/2026"
+  term_long: "Semester 2, Academic Year 2026 (B.E. 2569)"
+  sortdate: "2026-11"
+  code: "01256226"
+  title: "Automation Engineering Laboratory 2"
+  programme: "B.Eng. Automation Engineering, Year 2"
+  section: "1"
+  credits: "2 (0-6-3)"
+  format: "Laboratory"
+  meetings:
+    - { day: "Tuesday", time: "09:00–12:00", kind: "Practical", room: "Room O" }
+    - { day: "Tuesday", time: "13:00–16:00", kind: "Practical", room: "Room O" }
+  midterm: "Arranged by instructor"
+  final: "Arranged by instructor"
+  role: "Instructor"
+  team: "Teaching team of 8 instructors"
+
+- term: "Term 2/2026"
+  term_long: "Semester 2, Academic Year 2026 (B.E. 2569)"
+  sortdate: "2026-11"
+  code: "01066673"
+  title: "Automation Engineering Laboratory 3"
+  programme: "B.Eng. Automation Engineering (Automation Track), Year 3"
+  section: "3"
+  credits: "2 (0-6-0)"
+  format: "Laboratory"
+  meetings:
+    - { day: "Wednesday", time: "09:00–12:00", kind: "Practical", room: "Room M" }
+    - { day: "Wednesday", time: "13:00–16:00", kind: "Practical", room: "Room M" }
+  midterm: "Arranged by instructor"
+  final: "Arranged by instructor"
+  role: "Instructor"
+  team: "Teaching team of 9 instructors, including a visiting lecturer"

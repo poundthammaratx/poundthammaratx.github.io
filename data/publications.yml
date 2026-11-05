@@ -13,6 +13,23 @@
 #           arXiv/Zenodo record by the owner.
 # ============================================================================
 
+- id: yawisit2026spad
+  title: "Optimal Fan-Out and Break-Even Routing Loss in Waveguide-Integrated Ge-on-Si SPAD Arrays"
+  authors: ["T. Yawisit", "P. Pannil"]
+  sortdate: "2026-11-03"
+  year: 2026
+  type: preprint
+  type_label: "Preprint"
+  status: preprint
+  status_label: "Preprint · not peer reviewed"
+  venue: "arXiv preprint (physics.ins-det; cross-listed in physics.optics)"
+  note: "12 pages, 8 figures, 6 tables. Extended version of a two-page paper submitted to the 2027 IEEE Silicon Photonics Conference (decision pending). Submitted 31 October 2026; announced 3 November 2026. All results are simulations."
+  arxiv: "2611.01111"
+  doi: "10.48550/arXiv.2611.01111"
+  area: "Optics, Photonics and Single-Photon Detection"
+  featured: true
+  abstract: "Splitting a waveguide mode over several Ge-on-Si single-photon avalanche diodes (SPADs) relieves dead-time saturation but multiplies dark counts. We quantify this trade-off with the asymptotic count-based information rate, which prices dark counts and dead time in one unit and is attained by an optimally weighted moment estimator. For a non-paralyzable pixel, the information per pre-dead-time signal event peaks at a signal rate y* = √(D(D + 1/τ)) with exact efficiency (√(1 + Dτ) − √(Dτ))², which sets the optimal fan-out and a critical flux above which equal splitting is optimal. We then compare four routing architectures on 64 simulated 16-pixel arrays: an equal passive tree, static trees (uncalibrated, and an idealized calibration-informed benchmark), an ideal programmable tree, and a thermo-optic Mach-Zehnder interferometer (MZI) tree with 1.32 dB excess loss. Ideal programmability gains up to 15.9 dB over equal splitting at low flux. At one known flux, however, the calibrated static splitter beats the MZI tree by 0.14-2.7 dB, and the penalty tends to twice the excess loss when dark counts dominate. In ensemble-median worst-case regret, the MZI tree breaks even only for flux windows wider than 2.55 decades, and not within six decades above about 3.4 dB excess loss. Event-level Monte Carlo simulations reproduce the count statistics and the predicted estimator variances within bootstrap confidence intervals. Sensitivity analyses cover dark-count level, heterogeneity, detector model and random seed. All results are simulations with representative literature parameters."
+
 - id: yawisit2026sas
   title: "Missing Light, Misleading Confidence: Optical-Module Readout Loss and Signal Reliability in Neutrino Telescopes"
   authors: ["T. Yawisit", "P. Pannil"]
