@@ -1,20 +1,20 @@
 /*-- scss:defaults --*/
 
-// ---- Colour system: "detector console" dark theme --------------------------
-// Near-black background with a Cherenkov-blue accent. All text colours below
+// ---- Colour system: calm, deep, minimal dark theme ------------------------
+// Deep ink background with a single quiet steel-blue accent. All text colours below
 // meet WCAG AA contrast on $bg and $surface.
-$bg:        #050608;   // page background
-$surface:   #0B0E13;   // cards, panels
-$surface-2: #11161D;   // inputs, code, hover
-$line:      #1E2630;   // hairline borders
-$line-2:    #2A3441;   // stronger borders
-$text:      #E6EAF0;   // body text
+$bg:        #090B0F;   // page background
+$surface:   #0E1117;   // cards, panels
+$surface-2: #13171E;   // inputs, code, hover
+$line:      #1C222B;   // hairline borders
+$line-2:    #283039;   // stronger borders
+$text:      #E4E7EC;   // body text
 $text-2:    #B4BDC9;   // secondary text
 $muted:     #8A96A6;   // meta text
-$accent:    #4CC2FF;   // Cherenkov blue
-$accent-2:  #7CF7D4;   // signal green (positive states)
-$amber:     #F5B53D;   // pending / under review
-$violet:    #B79CFF;   // planned
+$accent:    #93AFCF;   // quiet steel blue
+$accent-2:  #9CC7B2;   // muted sage (positive states)
+$amber:     #D6B271;   // pending / under review
+$violet:    #B1A5D6;   // planned
 
 $body-bg:    $bg;
 $body-color: $text;
@@ -23,7 +23,7 @@ $secondary:  $muted;
 $success:    $accent-2;
 $warning:    $amber;
 $link-color: $accent;
-$link-hover-color: #9BDCFF;
+$link-hover-color: #C3D4E8;
 $link-decoration: none;
 
 $navbar-bg: $bg;
@@ -47,7 +47,7 @@ $dropdown-link-hover-color: $accent;
 $table-color: $text;
 $table-border-color: $line;
 $table-striped-bg: $surface;
-$code-color: $accent-2;
+$code-color: $text-2;
 $code-block-bg: $surface;
 $toc-color: $muted;
 $text-muted: $muted;
@@ -55,11 +55,11 @@ $text-muted: $muted;
 // ---- Typography ------------------------------------------------------------
 $font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $font-family-monospace: "JetBrains Mono", "IBM Plex Mono", SFMono-Regular, Menlo, Consolas, monospace;
-$headings-font-family: "Space Grotesk", "Inter", system-ui, sans-serif;
+$headings-font-family: "Source Serif 4", "Iowan Old Style", Georgia, serif;
 $headings-font-weight: 600;
-$headings-color: #F4F7FA;
+$headings-color: #F1F3F6;
 $font-size-root: 16.5px;
-$line-height-base: 1.7;
+$line-height-base: 1.75;
 
 /*-- scss:rules --*/
 
@@ -76,7 +76,7 @@ $line-height-base: 1.7;
   --tw-accent-2: #{$accent-2};
   --tw-amber: #{$amber};
   --tw-violet: #{$violet};
-  --tw-mono: #{$font-family-monospace};
-  --tw-head: #{$headings-font-family};
+  --tw-mono: #{inspect($font-family-monospace)};
+  --tw-head: #{inspect($headings-font-family)};
   color-scheme: dark;
 }
