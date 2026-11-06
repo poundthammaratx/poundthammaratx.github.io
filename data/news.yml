@@ -7,9 +7,9 @@
 #          News page (16:9). image_alt: describe what it shows.
 # ============================================================================
 
-- title: "Awarded the AWS Skill Builder Subscription Scholarship (AI for ALL)"
+- title: "Awarded the AWS Skill Builder Scholarship (AI for ALL)"
   image: "/assets/img/news/2026-aws-skill-builder.jpg"
-  image_alt: "Infographic: Thammarat Yawisit awarded the AWS Skill Builder Subscription Scholarship under AI for ALL by True Digital Academy and AWS; 4 months, 6 Nov 2026 to 28 Feb 2027."
+  image_alt: "Infographic with a portrait of Thammarat Yawisit: awarded the AWS Skill Builder Scholarship under AI for ALL by True Digital Academy and AWS; duration 4 months, 6 Nov 2026 to 28 Feb 2027."
   kind: announcement
   sortdate: "2026-11-05"
   date_label: "5 Nov 2026"
