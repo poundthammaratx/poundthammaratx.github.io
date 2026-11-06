@@ -19,9 +19,10 @@ const kinds = { media: 'In the media', announcement: 'Announcement' };
 <% } %>
 <ul class="records timeline" data-filter-target="news">
 <% for (const it of rows) { %>
-  <li class="record" data-kind="<%= it.kind %>">
-    <div class="t-date"><%= it.date_label %></div>
+  <li class="record<%= (!compact && it.image) ? ' has-cover' : '' %>" data-kind="<%= it.kind %>">
+    <% if (!compact && it.image) { %><img class="news-cover" src="<%- it.image.replace(/^\//, (typeof tp.root === 'string' ? tp.root : '../')) %>" alt="" loading="lazy" width="1200" height="675"><% } else { %><div class="t-date"><%= it.date_label %></div><% } %>
     <div>
+      <% if (!compact && it.image) { %><div class="t-date" style="padding-top:0;margin-bottom:.2rem"><%= it.date_label %></div><% } %>
       <p class="r-title"><%= it.title %></p>
       <% if (it.title_original) { %><p class="r-note" lang="th" style="margin-top:0"><%= it.title_original %></p><% } %>
       <% if (!compact && it.summary) { %><p class="t-org" style="margin-top:.35rem"><%= it.summary %></p><% } %>
