@@ -182,7 +182,5 @@ nav#TOC .nav-link.active { color: var(--tw-accent); border-left-color: var(--tw-
 .course-compact .r-title { margin: 0; font-size: 1.02rem; }
 .course-compact .c-meta { font-size: .85rem; color: var(--tw-muted); }
 
-/* ---- News covers ---------------------------------------------------------- */
-.timeline .record.has-cover { grid-template-columns: 15rem 1fr; gap: 1.5rem; align-items: start; }
-.news-cover { width: 100%; height: auto; aspect-ratio: 16 / 9; border-radius: 8px; border: 1px solid var(--tw-line); display: block; margin: 0; }
-@media (max-width: 575.98px) { .timeline .record.has-cover { grid-template-columns: 1fr; gap: .75rem; } }
+/* ---- News images -------------------------------------------------------- */
+.news-feature { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--tw-line); margin: .75rem 0 .5rem; }
