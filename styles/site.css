@@ -181,3 +181,6 @@ nav#TOC .nav-link.active { color: var(--tw-accent); border-left-color: var(--tw-
 .course-compact .c-code { font-family: var(--tw-mono); font-size: .8rem; color: var(--tw-muted); }
 .course-compact .r-title { margin: 0; font-size: 1.02rem; }
 .course-compact .c-meta { font-size: .85rem; color: var(--tw-muted); }
+
+/* ---- News images -------------------------------------------------------- */
+.news-feature { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--tw-line); margin: .75rem 0 .5rem; }

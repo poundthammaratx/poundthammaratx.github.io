@@ -3,7 +3,17 @@
 # kind   : media (third-party coverage) | announcement (own milestone)
 # Only add media items you have opened and read; summarise what the source says,
 # never more. Keep the original-language headline in title_original.
+# image  : optional infographic/photo shown full width under the title on the
+#          News page (16:9). image_alt: describe what it shows.
 # ============================================================================
+
+- title: "Awarded the AWS Skill Builder Scholarship (AI for ALL)"
+  image: "/assets/img/news/2026-aws-skill-builder.jpg"
+  image_alt: "Infographic with a portrait of Thammarat Yawisit: awarded the AWS Skill Builder Scholarship under AI for ALL by True Digital Academy and AWS; duration 4 months, 6 Nov 2026 to 28 Feb 2027."
+  kind: announcement
+  sortdate: "2026-11-05"
+  date_label: "5 Nov 2026"
+  summary: "Awarded an AWS Skill Builder Subscription scholarship under the AI for ALL programme run by True Digital Academy (TDA), True Corporation, with Amazon Web Services. The scholarship gives free access to AWS self-paced courses, hands-on Builder Labs and exam-preparation material for a four-month learning period, 6 November 2026 to 28 February 2027, with at least one course to be completed by 31 December 2026. Course certificates will be added here as they are earned."
 
 - title: "Nominated for a Government Science and Technology Scholarship"
   kind: announcement
