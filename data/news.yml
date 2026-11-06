@@ -5,6 +5,12 @@
 # never more. Keep the original-language headline in title_original.
 # ============================================================================
 
+- title: "Selected for an AWS Skill Builder scholarship (AI for ALL)"
+  kind: announcement
+  sortdate: "2026-11-05"
+  date_label: "5 Nov 2026"
+  summary: "Selected for an AWS Skill Builder Team Subscription under the AI for ALL programme run by True Digital Academy (TDA) with Amazon Web Services. The scholarship gives free access to AWS self-paced courses, hands-on Builder Labs and exam-preparation material for a four-month learning period, 6 November 2026 to 28 February 2027, with at least one course to be completed by 31 December 2026. Course certificates will be added here as they are earned."
+
 - title: "Nominated for a Government Science and Technology Scholarship"
   kind: announcement
   sortdate: "2026-10-22"
