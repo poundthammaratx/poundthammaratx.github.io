@@ -7,6 +7,16 @@
 #          News page (16:9). image_alt: describe what it shows.
 # ============================================================================
 
+- title: "Review paper accepted at ICPHS 2026"
+  kind: announcement
+  sortdate: "2026-11-06"
+  date_label: "6 Nov 2026"
+  summary: "The review paper “Optical Modules for Next-Generation Neutrino Telescopes: A Review of Design and Characterization Requirements for TeV-PeV Astroparticle Physics” (T. Yawisit and P. Pannil) was accepted for presentation at the 6th International Conference on Photonics Solutions (ICPHS 2026), organised by Srinakharinwirot University with IEEE Photonics Society Thailand, Bangkok, 25–27 November 2026. Accepted and presented full papers will be submitted for inclusion in IEEE Xplore."
+  link: "/publications/index.qmd"
+  link_label: "Publications"
+  url: "https://icphs2026.science.swu.ac.th/"
+  url_label: "Conference website"
+
 - title: "Awarded the AWS Skill Builder Scholarship (AI for ALL)"
   image: "/assets/img/news/2026-aws-skill-builder.jpg"
   image_alt: "Infographic with a portrait of Thammarat Yawisit: awarded the AWS Skill Builder Scholarship under AI for ALL by True Digital Academy and AWS; duration 4 months, 6 Nov 2026 to 28 Feb 2027."

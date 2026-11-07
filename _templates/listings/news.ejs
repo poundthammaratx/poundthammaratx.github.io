@@ -29,7 +29,7 @@ const kinds = { media: 'In the media', announcement: 'Announcement' };
       <div class="r-meta">
         <span class="badge-tw <%= it.kind === 'media' ? 'status-published' : 'status-info' %>"><%= kinds[it.kind] || it.kind %></span>
         <% if (it.outlet) { %><span class="r-note" style="margin:0"><%= it.outlet %><% if (it.language) { %> · in <%= it.language %><% } %></span><% } %>
-        <% if (it.url) { %><a href="<%= it.url %>">Read the source</a><% } %>
+        <% if (it.url) { %><a href="<%= it.url %>"><%= it.url_label || 'Read the source' %></a><% } %>
         <% if (it.link && !compact) { %><a href="<%- it.link.replace('/index.qmd', '/') %>"><%= it.link_label || 'More' %></a><% } %>
       </div>
     </div>
