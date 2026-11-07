@@ -13,6 +13,21 @@
 #           arXiv/Zenodo record by the owner.
 # ============================================================================
 
+- id: yawisit2026icphs
+  title: "Optical Modules for Next-Generation Neutrino Telescopes: A Review of Design and Characterization Requirements for TeV-PeV Astroparticle Physics"
+  authors: ["T. Yawisit", "P. Pannil"]
+  sortdate: "2026-11-06"
+  year: 2026
+  type: proceedings
+  type_label: "Conference paper (accepted)"
+  status: accepted
+  status_label: "Accepted for presentation"
+  venue: "6th International Conference on Photonics Solutions (ICPHS 2026), Bangkok, Thailand, 25–27 November 2026"
+  note: "Review paper, Paper ID 27. Accepted for presentation (notified 6 November 2026). Accepted and presented full papers will be submitted for inclusion in IEEE Xplore, subject to IEEE scope and quality requirements; not yet published."
+  area: "Neutrino Telescope Instrumentation"
+  featured: true
+  abstract: ""
+
 - id: yawisit2026spad
   title: "Optimal Fan-Out and Break-Even Routing Loss in Waveguide-Integrated Ge-on-Si SPAD Arrays"
   authors: ["T. Yawisit", "P. Pannil"]
