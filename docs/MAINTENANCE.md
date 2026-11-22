@@ -16,7 +16,7 @@ Every academic record lives in **one** place. Edit the source, commit, and the s
 | News and media coverage | `data/news.yml` | News, Home (3 most recent) |
 | Student leadership | `data/leadership.yml` | Activities |
 | Competitions and programmes | `data/competitions.yml` | Activities |
-| CV PDF | replace `assets/cv/CV_Thammarat_Yawisit.pdf` (keep the file name) and update `cv.updated` in `_variables.yml` | Home, CV |
+| CV | edit the CV page (`cv/index.qmd` and the `data/*.yml` files it lists) and update `cv.updated` in `_variables.yml`. The CV PDF is intentionally not published. | CV |
 
 ## Adding a publication
 

@@ -7,7 +7,6 @@ project:
     - "!docs/"
     - "!README.md"
   resources:
-    - assets/cv/CV_Thammarat_Yawisit.pdf
     - assets/img/og-portrait.jpg
     - .nojekyll
 

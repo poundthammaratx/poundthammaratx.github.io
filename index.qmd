@@ -88,7 +88,7 @@ I work on the measurement chain of experimental physics: testing detector hardwa
 :::
 
 ::: {.hero-links}
-[Download CV (PDF)](assets/cv/CV_Thammarat_Yawisit.pdf){.btn-tw .primary}
+[Curriculum Vitae](cv/index.qmd){.btn-tw .primary}
 [Publications](publications/index.qmd){.btn-tw}
 [Research](research/index.qmd){.btn-tw}
 [ORCID](https://orcid.org/0009-0006-9298-8862){.btn-tw}

@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae & Contact"
 subtitle: "Academic and professional summary · CV last updated {{< var cv.updated >}}"
-description: "Curriculum vitae summary, downloadable CV and contact details for Thammarat Yawisit."
+description: "Curriculum vitae summary and contact details for Thammarat Yawisit."
 toc: true
 toc-location: right
 toc-title: "On this page"
@@ -21,7 +21,6 @@ listing:
 ---
 
 ::: {.hero-links}
-[Download full CV (PDF)](../assets/cv/CV_Thammarat_Yawisit.pdf){.btn-tw .primary}
 [Publications](../publications/index.qmd){.btn-tw}
 [Talks & service](../activities/index.qmd){.btn-tw}
 [Recognition](../recognition/index.qmd){.btn-tw}
